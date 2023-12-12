@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    
+    <t t-inherit="web.DatePicker" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[@class='o_datepicker']" position="replace">
+            <div class="o_datepicker nd_datepickers_container" aria-atomic="true" t-att-id="datePickerId" data-target-input="nearest" t-ref="root" >
+               
+                <div id="greg_cal" t-ref="rootRefAD" class="nd_datepicker_ad nd_datepicker_multi" style="display:none;">
+
+                    <input type="text"
+                    class="o_datepicker_input o_input datetimepicker-input"
+                    t-att-name="props.name"
+                    t-att-id="props.inputId"
+                    t-att-placeholder="props.placeholder"
+                    t-attf-data-target="#{ '#' + datePickerId }"
+                    t-att-readonly="props.readonly"
+                    t-ref="input"
+                    t-on-change="() => this.onDateChange()"
+                    t-on-input="(ev) => this.props.onInput(ev)"
+                    t-on-click="onInputClick"
+                    t-on-keydown="onInputKeydown"
+                    />
+                    <span
+                    t-if="props.warn_future and state.warning"
+                    class="fa fa-exclamation-triangle text-danger o_tz_warning o_datepicker_warning"
+                    data-tooltip="This date is on the future. Make sure it is what you expected."
+                    />
+                    <span class="nd_switch_btn" title="Switch to Nepali Calendar" t-on-click="switch_calendar"/>
+                    <span class="o_datepicker_button" />
+                    <span class="nd_alt_date" t-ref="displayBS" />
+                </div>
+
+                <div id="bs_cal" class="nd_datepicker_bs nd_datepicker_multi" aria-atomic="true" t-att-id="datepickerBSId" t-ref="rootBS" style="display:block;">
+                    <input type="text"
+                        class="o_input nd_datepicker_input_bs"
+                        autocomplete="off"
+                        t-ref="inputBS"
+                        t-on-click="_onClickBSInput"
+                        t-att-placeholder="'B.S'"
+                        t-attf-data-target="##{datepickerBSID}"
+                        data-date-mode="bs"
+                        />
+                    <span class="o_datepicker_button"/>
+                    <span class="nd_switch_btn" title="Switch to Gregorian Calendar" t-on-click="switch_calendar" />
+                    <span class="nd_alt_date" t-ref="displayAD" />
+                </div>
+            </div>
+
+        </xpath>
+        </t>
+
+        <!-- <t t-inherit="web.DateField" t-inherit-mode="extension" owl="1">
+            <xpath expr="//span[@t-esc='formattedValue']" position="replace">
+                <span t-esc="formattedValue"></span>
+            </xpath>
+            <xpath expr="//DatePicker[@date='date']" position="replace">
+                <DatePicker
+                t-props="props.pickerOptions"
+                date="date"
+                inputId="props.id"
+                placeholder="props.placeholder"
+                onDateTimeChanged="(date) => this.onDateTimeChanged(date)"
+                onInput.bind="onDatePickerInput"
+                onUpdateInput.bind="onUpdateInput"
+            />
+            </xpath> 
+        </t> -->
+
+        <!-- <t t-inherit="web.DateTimeField" t-inherit-mode="extension" owl="1">
+            <xpath expr="//span[@t-esc='formattedValue']" position="replace">
+                <span t-esc="formattedValue"/>
+            </xpath>
+            <xpath expr="//DateTimePicker[@date='props.value']" position="replace">
+                <DateTimePicker
+                t-props="props.pickerOptions"
+                date="props.value"
+                inputId="props.id"
+                placeholder="props.placeholder"
+                onDateTimeChanged="(datetime) => this.onDateTimeChanged(datetime)"
+                onInput.bind="onDatePickerInput"
+                onUpdateInput.bind="onUpdateInput"
+            />
+            </xpath>
+        </t> -->
+    </templates>
