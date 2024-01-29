@@ -1,0 +1,37 @@
+.editor_enable{
+	.navbar-collapse #top_menu{
+		flex-wrap: wrap !important;
+	}
+}
+
+@media (max-width: 767.98px) {
+	header .navbar-brand.logo img {
+	}
+}
+
+header{
+	.fa-search{
+		font-family: 'IcoFont' !important;
+		&:before{
+		    content: "\ed12" !important;
+		}
+	}
+}
+
+
+.o_mega_menu{
+    margin: 0 15px !important;
+    width: -webkit-fill-available !important;
+}
+
+#vouge-header3, #vouge-header6, #vouge-header9{
+	.o_mega_menu{
+		margin: 0 !important;
+	}
+}
+
+#vouge-header8{
+	.o_mega_menu{
+		margin-right: 0 !important;
+	}
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_company_contactus" name="Quick Contact">
+      	<div class="oe_structure"/>
+      	
+      	<section class="s_parallax bg-black-50 parallax corpo_comapany_contact s_parallax_is_fixed	o_half_screen_height o_colored_level" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax">
+			<span class="s_parallax_bg oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/company-contact.jpg');"/>
+			<div class="o_we_bg_filter bg-black-50"></div>
+
+			<div class="oe_structure oe_empty"/>
+
+			<section class="mt64 mb64">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<p class="m-0 section-heading one-side-heading-line text-uppercase">contact us</p>
+							<h2 class="mt-4 font-weight-lighter">
+								Quick Contact
+							</h2>
+							<p class="mt-4 mb-0">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis purus at lectus viverra rutrum ut vel eros.
+							</p>
+						</div>
+						<div class="col-md-8">
+							<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form">
+								<div class="">
+									<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/thank-you" data-model_name="mail.mail">
+										<div class="s_website_form_rows row s_col_no_bgcolor">
+											<div class="form-group s_website_form_field col-12 s_website_form_dnone" data-name="Field">
+												<div class="row s_col_no_resize s_col_no_bgcolor">
+													<label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px">
+													<span class="s_website_form_label_content"/>
+													<span title="Separate email addresses with a comma.">
+														<i class="fa fa-info-circle"/>
+													</span>
+													</label>
+													<div class="col-sm">
+														<input type="hidden" class="form-control bg-transparent s_website_form_input" name="email_to" value="info@yourcompany.example.com"/>
+													</div>
+												</div>
+											</div>
+											<div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required	" data-type="char" data-name="Field">
+												<div class="row s_col_no_resize s_col_no_bgcolor">
+													<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="neyj4tghad">
+													<span class="s_website_form_label_content">Your Name</span>
+													<span class="s_website_form_mark"> *</span>
+													</label>
+													<div class="col-sm">
+														<input type="text" class="form-control bg-transparent s_website_form_input" name="Your Name" required="1" id="neyj4tghad"/>
+													</div>
+												</div>
+											</div>
+											<div class="form-group s_website_form_field col-12 s_website_form_custom	 " data-type="tel" data-name="Field">
+												<div class="row s_col_no_resize s_col_no_bgcolor">
+													<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="bpzkksf3l27">
+													<span class="s_website_form_label_content">Phone Number</span>
+													</label>
+													<div class="col-sm">
+														<input type="tel" class="form-control bg-transparent s_website_form_input" name="Phone Number" id="bpzkksf3l27"/>
+													</div>
+												</div>
+											</div>
+											<div class="form-group s_website_form_field col-12	s_website_form_model_required	" data-type="email" data-name="Field">
+												<div class="row s_col_no_resize s_col_no_bgcolor">
+													<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="2wpmmwxcqq5">
+													<span class="s_website_form_label_content">Your Email</span>
+													<span class="s_website_form_mark"> *</span>
+													</label>
+													<div class="col-sm">
+														<input type="email" class="form-control bg-transparent s_website_form_input" name="email_from" required="true" id="2wpmmwxcqq5"/>
+													</div>
+												</div>
+											</div>
+											<div class="form-group s_website_form_field col-12	s_website_form_model_required	" data-type="char" data-name="Field">
+												<div class="row s_col_no_resize s_col_no_bgcolor">
+													<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="btjrzy1kelb">
+													<span class="s_website_form_label_content">Subject</span>
+													<span class="s_website_form_mark"> *</span>
+													</label>
+													<div class="col-sm">
+														<input type="text" class="form-control bg-transparent s_website_form_input" name="subject" required="true" id="btjrzy1kelb"/>
+													</div>
+												</div>
+											</div>
+											<div class="form-group col-12 s_website_form_submit mt32" data-name="Submit Button">
+												<div style="width: 200px;" class="s_website_form_label"/>
+												<a href="#" role="button" class="btn btn-outline-primary rounded-circle mt-2 o_default_snippet_text px-4 py-3 font-weight-bold s_website_form_send ">Submit</a>
+												<span id="s_website_form_result"/>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+			
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

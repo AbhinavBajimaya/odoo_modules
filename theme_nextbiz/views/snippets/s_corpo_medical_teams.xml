@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_medical_teams" name="Our Teams">
+      	<div class="oe_structure"/>
+      	
+      	<section class="s_carousel_wrapper corpo_medical_banner" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="Corpomedicalteam3" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#Corpomedicalteam3"></li>
+            <li data-slide-to="1" data-target="#Corpomedicalteam3" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item o_colored_level oe_img_bg active" data-name="Slide">
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc1.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Reba Welch</h4>
+                                    <p class="mt-2 mb-0 text-muted">Nutritionist</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc2.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Salena Ramsey</h4>
+                                    <p class="mt-2 mb-0 text-muted">Therapist</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc3.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Melissa Tingey</h4>
+                                    <p class="mt-2 mb-0 text-muted">Surgeon</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc4.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Jeff Barnett</h4>
+                                    <p class="mt-2 mb-0 text-muted">Dentist</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item o_colored_level oe_img_bg" data-name="Slide">
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc5.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Violet Barnett</h4>
+                                    <p class="mt-2 mb-0 text-muted">Cardiologist</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc6.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Ash Daves</h4>
+                                    <p class="mt-2 mb-0 text-muted">Radiation therapists</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc7.png">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Taylor Cooper</h4>
+                                    <p class="mt-2 mb-0 text-muted">Pharmacists</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="mt-3 mt-md-0 carousel-content col-md-3 o_colored_level">
+                            <div class="doctor-box">
+                                <div class="image">
+                                    <img class="img img-fluid w-100" src="/theme_nextbiz/static/src/img/medical-doc8.jpg">
+                                    </img>
+                                    <div class="overlay"/>
+                                    <div class="social-icons d-flex">
+                                        <a class="text-decoration-none fb" href="#">
+                                            <span class="ri ri-facebook-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none twitter" href="#">
+                                            <span class="ri ri-twitter-fill fa-2x text-white"/>
+                                        </a>
+                                        <a class="ml-2 text-decoration-none insta" href="#">
+                                            <span class="ri ri-instagram-line fa-2x text-white"/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <section class="data text-center bg-white p-4">
+                                    <h4>Victoria Bowen</h4>
+                                    <p class="mt-2 mb-0 text-muted">Anesthetists</p>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Corpomedicalteam3">
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Corpomedicalteam3">
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

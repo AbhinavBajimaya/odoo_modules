@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="corpo_transport_template" model="ir.ui.view">
+		<field name="name">Corpo Transport</field>
+		<field name="type">qweb</field>
+		<field name="key">website.corpo_transport_template</field>
+		<field name="arch" type="xml">
+			<t name="Corpo Transport Template" t-name="theme_nextbiz.corpo_transport_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="s_carousel_wrapper corpo_transport_banner" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="CorpoTransportBanner1" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#CorpoTransportBanner1"></li>
+            <li data-slide-to="1" data-target="#CorpoTransportBanner1" class=""></li>
+            <li data-slide-to="2" data-target="#CorpoTransportBanner1" class=""></li>
+            <li data-slide-to="3" data-target="#CorpoTransportBanner1" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item bg-black-50 pt152 pb152 o_colored_level oe_img_bg active" style="background-image: url(&quot;/theme_nextbiz/static/src/img/transport-banner1.jpg&quot;); background-position: center;" data-name="Slide">
+                <div class="o_we_bg_filter bg-black-50"></div>
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7 o_colored_level">
+                            <h1>
+														Corpo Fast Delivery Support
+                            </h1>
+                            <p class="lead o_default_snippet_text mt-4">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 
+														Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p class="mt-4">
+                                <a href="/contactus" class="btn btn-secondary font-weight-bold flat py-3 px-4 rounded-0 mt-2 o_default_snippet_text ">
+															Read More
+                                    <span class="lnr lnr-arrow-right align-middle ml-2 font-weight-bold"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-black-50 pt152 pb152 o_colored_level oe_img_bg" style="background-image: url(&quot;/theme_nextbiz/static/src/img/transport-banner2.jpg&quot;); background-position: center;" data-name="Slide">
+                <div class="o_we_bg_filter bg-black-50"></div>
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7 o_colored_level" style="">
+                            <h1>
+														Corpo Move &amp; Relocation
+                            </h1>
+                            <p class="lead o_default_snippet_text mt-4">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 
+														Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p class="mt-4">
+                                <a href="/contactus" class="btn btn-secondary font-weight-bold flat py-3 px-4 rounded-0 mt-2 o_default_snippet_text">
+															Read More
+                                    <span class="lnr lnr-arrow-right align-middle ml-2 font-weight-bold"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-black-50 pt152 pb152 o_colored_level oe_img_bg" style="background-image: url(&quot;/theme_nextbiz/static/src/img/transport-banner3.jpg&quot;); background-position: cover;" data-name="Slide">
+                <div class="o_we_bg_filter bg-black-50"></div>
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7 o_colored_level">
+                            <h1>
+														Corpo Transportation
+                            </h1>
+                            <p class="lead o_default_snippet_text mt-4">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 
+														Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p class="mt-4">
+                                <a href="/contactus" class="btn btn-secondary font-weight-bold flat py-3 px-4 rounded-0 mt-2 o_default_snippet_text">
+															Read More
+                                    <span class="lnr lnr-arrow-right align-middle ml-2 font-weight-bold"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-black-50 pt152 pb152 o_colored_level oe_img_bg" style="background-image: url(&quot;/theme_nextbiz/static/src/img/transport-banner4.jpg&quot;); background-position: cover;" data-name="Slide">
+                <div class="o_we_bg_filter bg-black-50"></div>
+                <div class="container">
+                    <div class="row content">
+                        <div class="carousel-content col-lg-7 o_colored_level">
+                            <h1>
+														Corpo Warehousing
+                            </h1>
+                            <p class="lead o_default_snippet_text mt-4">
+														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                 
+														Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <p class="mt-4">
+                                <a href="/contactus" class="btn btn-secondary font-weight-bold flat py-3 px-4 rounded-0 mt-2 o_default_snippet_text">
+															Read More
+                                    <span class="lnr lnr-arrow-right align-middle ml-2 font-weight-bold"/>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#CorpoTransportBanner1">
+            <span class="lnr lnr-chevron-left fa-2x"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#CorpoTransportBanner1">
+            <span class="lnr lnr-chevron-right fa-2x"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+
+						<div class="oe_structure" />
+
+						<section class="transport_banner_features_section" style="background-color: #f6f7f8;">
+							<div class="container">
+								<div class="row no-gutters">
+									<div class="col-md-6 col-lg-3">
+										<div class="d-inline-flex w-100 feature-box h-100 align-items-center p-4 p-md-3 py-4">
+											<div class="indi-icon pr-1 pr-md-3">
+												<span class="ri ri-plane-line fa-3x"></span>
+											</div>
+											<div class="indi-content">
+												<p class="mb-0 mb-md-2 text-uppercase">
+													Air Transport
+												</p>
+												<h6 class="text-capitalize">
+													Rapid Transport By Air
+												</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3 border-left border-white">
+										<div class="d-inline-flex w-100 feature-box h-100 align-items-center p-4 p-md-3 py-4">
+											<div class="indi-icon pr-1 pr-md-3">
+												<span class="ri ri-ship-fill fa-3x"></span>
+											</div>
+											<div class="indi-content">
+												<p class="mb-0 mb-md-2 text-uppercase">
+													Sea Transport
+												</p>
+												<h6 class="text-capitalize">
+													containers Shipments
+												</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3 border-left border-white">
+										<div class="d-inline-flex w-100 feature-box h-100 align-items-center p-4 p-md-3 py-4">
+											<div class="indi-icon pr-1 pr-md-3">
+												<span class="ri ri-truck-fill fa-3x"></span>
+											</div>
+											<div class="indi-content">
+												<p class="mb-0 mb-md-2 text-uppercase">
+													Road Shipping 
+												</p>
+												<h6 class="text-capitalize">
+													Door to Door Shipments 
+												</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 col-lg-3 border-left border-white">
+										<div class="d-inline-flex w-100 feature-box h-100 align-items-center px-4 px-md-3 py-4">
+											<div class="indi-icon pr-1 pr-md-3">
+												<span class="ri ri-sailboat-line fa-3x"></span>
+											</div>
+											<div class="indi-content">
+												<p class="mb-0 mb-md-2 text-uppercase">
+													Warehousing 
+												</p>
+												<h6 class="text-capitalize">
+													secured warehouses
+												</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+						
+						<section class="corpo_transport_speciality" style="background-color: #f6f7f8;">
+							<div class="container">
+								<div class="row text-left">
+									<div class="col-lg-7">
+										<p class="m-0 section-heading one-side-heading-line text-uppercase">Speciality</p>
+										<h2 class="mt-4 font-weight-lighter">
+											Our specialties
+										</h2>
+										<p class="mb-0 mt-3">
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+								<div class="row mt40 align-items-end">
+									<div class="col-lg-7">
+										<div class="speciality_content">
+											<div class="row mb40">
+												<div class="col-md-6">
+													<div class="content-box d-flex py-3">
+														<div class="content-icon">
+															<span class="ri ri-global-line fa-2x text-primary"/>
+														</div>
+														<div class="content-data text-left pl-3">
+															<h5 class="font-weight-bold">Secured Storages</h5>
+															<p class="mt-3 mb-0 text-muted">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+															</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="content-box d-flex py-3">
+														<div class="content-icon">
+															<span class="ri ri-sailboat-line fa-2x text-primary"/>
+														</div>
+														<div class="content-data text-left pl-3">
+															<h5 class="font-weight-bold">Warehousing Service</h5>
+															<p class="mt-3 mb-0 text-muted">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+															</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="content-box d-flex py-3">
+														<div class="content-icon">
+															<span class="ri ri-truck-line fa-2x text-primary"/>
+														</div>
+														<div class="content-data text-left pl-3">
+															<h5 class="font-weight-bold">Ground Transport</h5>
+															<p class="mt-3 mb-0 text-muted">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+															</p>
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6">
+													<div class="content-box d-flex py-3">
+														<div class="content-icon">
+															<span class="ri ri-ship-line fa-2x text-primary"/>
+														</div>
+														<div class="content-data text-left pl-3">
+															<h5 class="font-weight-bold">Logistic Services</h5>
+															<p class="mt-3 mb-0 text-muted">
+																Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-5">
+										<div class="speciality_image">
+											<img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-speciality.png" alt="transport-speciality">
+											</img>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+
+						<section class="corpo_transport_call_to_action s_parallax parallax s_parallax_is_fixed bg-black-50 o_colored_level o_half_screen_height" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax">
+							<span class="s_parallax_bg oe_img_bg" style="background-image: url('/theme_nextbiz/static/src/img/transport-callaction.jpg'); background-position: center"/>
+							<div class="o_we_bg_filter bg-black-50"/>
+							<div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+								<section class="s_call_to_action pt64 pb64 o_colored_level" data-snippet="s_call_to_action" data-name="Call to Action">
+									<div class="container">
+										<div class="row align-items-center">
+											<div class="col-lg-8 pb16 o_colored_level">
+												<h3 class="o_default_snippet_text font-weight-bold">
+													Reach your destination 100% safe
+												</h3>
+												<p class="o_default_snippet_text mt-3">
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+												</p>
+											</div>
+											<div class="col-lg-4 pt8 o_colored_level">
+												<p class="text-right mt-3 mt-lg-0">
+													<a href="/contactus" class="btn btn-primary font-weight-bold flat py-3 px-4 rounded-0 o_default_snippet_text">Contact Now
+														<span class="lnr lnr-arrow-right align-middle ml-2 font-weight-bold"/>
+													</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+
+						<section class="corpo_transport_services pt80 pb80">
+							<div class="container">
+								<div class="row mt48">
+									<div class="col-lg-12">
+										<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="Transportservices1" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#Transportservices1"></li>
+            <li data-slide-to="1" data-target="#Transportservices1" class=""></li>
+            <li data-slide-to="2" data-target="#Transportservices1" class=""></li>
+        </ol>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="services-content">
+                    <p class="m-0 section-heading one-side-heading-line text-uppercase">SERVICES</p>
+                    <h3 class="mt-2">Special Services We Provide</h3>
+                    <p class="mt-4 mb-0">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="carousel-inner">
+                    <div class="carousel-item o_colored_level active" data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service1.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Warehouses
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service2.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Sea Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service3.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Air Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item o_colored_level " data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service4.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Road Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service5.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Multimodal Services
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service6.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Door to Door
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item o_colored_level " data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service7.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Shipment Insurance
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service8.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Safe Storage
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service9.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Shipment Forwarding
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Transportservices1">
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Transportservices1">
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+						
+						<section class="corpo_transport_testimonial pt104 pb104 parallax s_parallax_is_fixed bg-black-50">
+				      		<span class="s_parallax_bg oe_img_bg" style="background-image: url('/theme_nextbiz/static/src/img/world-map.png'); background-position: 50% 0;"></span>
+				      		<div class="o_we_bg_filter bg-black-50"></div>
+				      		<div class="container">
+					      		<div class="mb48 text-center w-lg-75 mx-lg-auto">
+					            	<p class="m-0 section-heading one-side-heading-line two-line text-uppercase"><b>TESTIMONIAL</b></p>
+					              	<h2 class="o_default_snippet_text"><b>What Clients Say About Us?</b></h2>
+					              	<p class="my-2 o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				              	</div>
+			              	</div>
+			              	<div class="container">
+					        	<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="CorpoTransportTestimonial2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#CorpoTransportTestimonial2"></li>
+            <li data-slide-to="1" data-target="#CorpoTransportTestimonial2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-name="Slide" style="">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="testimonial-box mb-3 mb-lg-0 px-4 py-5 bg-white rounded-lg">
+                            <div class="d-block d-md-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="/theme_nextbiz/static/src/img/transport-client1.jpg" class="img img-fluid rounded-lg mr-3 shadow"/>
+                                    <div class="name-posi">
+                                        <h5 class="text-800 mb-2">
+                                            <b>June Clark</b>
+                                        </h5>
+                                        <p class="text-primary text-uppercase">Founder &amp; CTO MoveSmart Corp.</p>
+                                    </div>
+                                </div>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons text-primary" style="">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="testimonial-box mb-3 mb-lg-0 px-4 py-5 bg-white rounded-lg">
+                            <div class="d-block d-md-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="/theme_nextbiz/static/src/img/transport-client2.jpeg" class="img img-fluid rounded-lg mr-3 shadow"/>
+                                    <div class="name-posi">
+                                        <h5 class="text-800 mb-2">
+                                            <b>Paul Woods</b>
+                                        </h5>
+                                        <p class="text-primary text-uppercase">Founder &amp; CTO MoveSmart Corp.</p>
+                                    </div>
+                                </div>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons text-primary" style="">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-name="Slide" style="">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <section class="testimonial-box px-4 py-5 mb-3 mb-lg-0 bg-white rounded-lg">
+                            <div class="d-block d-md-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="/theme_nextbiz/static/src/img/transport-client3.jpg" class="img img-fluid rounded-lg mr-3 shadow"/>
+                                    <div class="name-posi">
+                                        <h5 class="text-800 mb-2">
+                                            <b>Del Burrows</b>
+                                        </h5>
+                                        <p class="text-primary text-uppercase">Founder &amp; CTO MoveSmart Corp.</p>
+                                    </div>
+                                </div>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons text-primary" style="">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </section>
+                    </div>
+                    <div class="col-lg-6">
+                        <section class="testimonial-box px-4 py-5 mb-3 mb-lg-0 bg-white rounded-lg">
+                            <div class="d-block d-md-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img src="/theme_nextbiz/static/src/img/transport-client4.jpeg" class="img img-fluid rounded-lg mr-3 shadow"/>
+                                    <div class="name-posi">
+                                        <h5 class="text-800 mb-2">
+                                            <b>Stuart Mills</b>
+                                        </h5>
+                                        <p class="text-primary text-uppercase">Founder Transpert &amp; Co.</p>
+                                    </div>
+                                </div>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons text-primary" style="">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#CorpoTransportTestimonial2">
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#CorpoTransportTestimonial2">
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+					        </div>
+				      	</section>
+
+						<div class="oe_structure" />
+
+						<section class="corpo_transport_counter s_numbers o_cc o_cc2 pt24 pb24 o_colored_level bg-light" data-snippet="s_numbers" data-name="Numbers">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+										<span class="ri ri-clipboard-line fa-3x text-secondary"/>
+										<span class="text-secondary text-left pl-2">
+											<span class="s_number display-4 font-weight-bold o_default_snippet_text d-block">
+											320
+											</span>
+											<span class="o_default_snippet_text display-6">Projects Done</span>
+										</span>
+									</div>
+									<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+										<span class="ri ri-global-line fa-3x text-secondary"/>
+										<span class="text-secondary text-left pl-2">
+											<span class="s_number display-4 font-weight-bold o_default_snippet_text d-block">
+											72
+											</span>
+											<span class="o_default_snippet_text display-6">Clients Worldwide</span>
+										</span>
+									</div>
+									<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+										<span class="ri ri-truck-line fa-3x text-secondary"/>
+										<span class="text-secondary text-left pl-2">
+											<span class="s_number display-4 font-weight-bold o_default_snippet_text d-block">
+											153
+											</span>
+											<span class="o_default_snippet_text display-6">Owned Vehicles</span>
+										</span>
+									</div>
+									<div class="col-md-6 col-lg-3 justify-content-center pt24 pb24 o_colored_level d-flex">
+										<span class="ri ri-team-line fa-3x text-secondary"/>
+										<span class="text-secondary text-left pl-2">
+											<span class="s_number display-4 font-weight-bold o_default_snippet_text d-block">
+											114
+											</span>
+											<span class="o_default_snippet_text display-6">People in Team</span>
+										</span>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+
+						<section class="s_parallax parallax corpo_comapany_contact s_parallax_is_fixed	o_half_screen_height o_colored_level" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax">
+							<span class="s_parallax_bg oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/transport-contact.jpg');"/>
+								<div class="o_we_bg_filter bg-black-50"/>
+								<div class="oe_structure oe_empty"/>
+
+								<section class="mt64 mb64">
+									<div class="container">
+										<div class="row">
+											<div class="col-md-4">
+												<p class="m-0 section-heading one-side-heading-line text-uppercase text-white">contact us</p>
+												<h2 class="mt-4 font-weight-lighter text-white">
+													Quick Contact
+												</h2>
+												<p class="mt-4 mb-0 text-white">
+													Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis purus at lectus viverra rutrum ut vel eros.
+												</p>
+											</div>
+											<div class="col-md-8">
+												<section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form">
+												<div class="">
+													<form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="*" data-success-mode="redirect" data-success-page="/thank-you" data-model_name="mail.mail">
+														<div class="s_website_form_rows row s_col_no_bgcolor text-white">
+															<div class="form-group s_website_form_field col-12 s_website_form_dnone" data-name="Field">
+															<div class="row s_col_no_resize s_col_no_bgcolor">
+																<label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px">
+																<span class="s_website_form_label_content"/>
+																<span title="Separate email addresses with a comma.">
+																	<i class="fa fa-info-circle"/>
+																</span>
+																</label>
+																<div class="col-sm">
+																<input type="hidden" class="form-control rounded-0 bg-transparent s_website_form_input" name="email_to" value="info@yourcompany.example.com"/>
+																</div>
+															</div>
+															</div>
+															<div class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required	" data-type="char" data-name="Field">
+															<div class="row s_col_no_resize s_col_no_bgcolor">
+																<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="neyj4tghad">
+																<span class="s_website_form_label_content">Your Name</span>
+																<span class="s_website_form_mark"> *</span>
+																</label>
+																<div class="col-sm">
+																<input type="text" class="form-control rounded-0 bg-transparent s_website_form_input" name="Your Name" required="1" id="neyj4tghad"/>
+																</div>
+															</div>
+															</div>
+															<div class="form-group s_website_form_field col-12 s_website_form_custom	 " data-type="tel" data-name="Field">
+															<div class="row s_col_no_resize s_col_no_bgcolor">
+																<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="bpzkksf3l27">
+																<span class="s_website_form_label_content">Phone Number</span>
+																</label>
+																<div class="col-sm">
+																<input type="tel" class="form-control rounded-0 bg-transparent s_website_form_input" name="Phone Number" id="bpzkksf3l27"/>
+																</div>
+															</div>
+															</div>
+															<div class="form-group s_website_form_field col-12	s_website_form_model_required	" data-type="email" data-name="Field">
+															<div class="row s_col_no_resize s_col_no_bgcolor">
+																<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="2wpmmwxcqq5">
+																<span class="s_website_form_label_content">Your Email</span>
+																<span class="s_website_form_mark"> *</span>
+																</label>
+																<div class="col-sm">
+																<input type="email" class="form-control rounded-0 bg-transparent s_website_form_input" name="email_from" required="true" id="2wpmmwxcqq5"/>
+																</div>
+															</div>
+															</div>
+															<div class="form-group s_website_form_field col-12	s_website_form_model_required	" data-type="char" data-name="Field">
+															<div class="row s_col_no_resize s_col_no_bgcolor">
+																<label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="btjrzy1kelb">
+																<span class="s_website_form_label_content">Subject</span>
+																<span class="s_website_form_mark"> *</span>
+																</label>
+																<div class="col-sm">
+																<input type="text" class="form-control rounded-0 bg-transparent s_website_form_input" name="subject" required="true" id="btjrzy1kelb"/>
+																</div>
+															</div>
+															</div>
+															<div class="form-group col-12 s_website_form_submit mt32" data-name="Submit Button">
+															<div style="width: 200px;" class="s_website_form_label"/>
+															<a href="#" role="button" class="btn btn-primary font-weight-bold flat py-3 px-4 rounded-0 mt-2 o_default_snippet_text s_website_form_send ">Submit</a>
+															<span id="s_website_form_result"/>
+															</div>
+														</div>
+													</form>
+												</div>
+											</section>
+										</div>
+									</div>
+								</div>
+							</section>
+						</section>
+
+						<div class="oe_structure" />
+
+						<section class="s_references pt56 pb56 o_colored_level" data-snippet="s_references" data-name="References">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_demo_image_1" class="img img-fluid mx-auto"/>
+									</div>
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_demo_image_2" class="img img-fluid mx-auto"/>
+									</div>
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_demo_image_3" class="img img-fluid mx-auto"/>
+									</div>
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_demo_image_4" class="img img-fluid mx-auto"/>
+									</div>
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_demo_image_5" class="img img-fluid mx-auto"/>
+									</div>
+									<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+										<img src="/web/image/website.s_reference_default_image_6" class="img img-fluid mx-auto"/>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<div class="oe_structure" />
+
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="corpo_transport_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/corpo-transport</field>
+		<field name="view_id" ref="corpo_transport_template" />
+	</record>
+</odoo>

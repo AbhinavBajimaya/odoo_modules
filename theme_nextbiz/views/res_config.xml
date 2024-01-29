@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.load.more</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="website.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="website_settings" position="inside">
+               
+                <div class="col-12 col-lg-6 o_setting_box">
+                	<div class="o_setting_right_pane">
+                        <label string="Login/Signup Page Banner Image" for="login_page_banner_image"/>
+                        <div class="text-muted">
+                            Login/Signup Page Banner Image
+                        </div>
+                        <field name="login_page_banner_image" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                	<div class="o_setting_right_pane">
+                        <label string="Transparent Header Logo" for="transparent_header_logo"/>
+                        <div class="text-muted">
+                            Transparent Header Logo
+                        </div>
+                        <field name="transparent_header_logo" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_right_pane">
+                        <label string="Sidebar Menu Logo" for="sidebar_logo"/>
+                        <div class="text-muted">
+                            Sidebar Menu Logo
+                        </div>
+                        <field name="sidebar_logo" class="w-35 mt-2" widget="image"/>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

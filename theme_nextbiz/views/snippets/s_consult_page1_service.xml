@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page1_service" name="Consult One Service">
+        <section class="consult_pages">
+            <section class="consult-one-services">
+                <div class="container">
+                    <div class="text-center">
+                        <h6 class="title font-weight-bold mb-3">Our Services</h6>
+                        <h2 class="font-weight-bold mb-5">We provide great services</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service1.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Weekly reporting</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service2.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Live Advisory</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service3.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Experienced Consultant</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service4.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Monthly Audit</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service5.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Data Analysis</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service6.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Responsive Design</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service7.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Development By Experts</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 my-2">
+                            <img src="/theme_nextbiz/static/src/img/consulrpage1_service8.png" class="img img-fluid service_icon mb-4"/>
+                            <h5 class="font-weight-bold">
+                                <a class="text-decoration-none service_btn" href="#">Profit</a>
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

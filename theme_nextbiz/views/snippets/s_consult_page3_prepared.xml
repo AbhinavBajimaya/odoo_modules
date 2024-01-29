@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_consult_page3_prepared" name="Consult Three Prepared">
+        <section class="consult_pages">
+            <section class="s_carousel_wrapper consult-three-prepared" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                <div class="container">
+                    <div class="w-xl-50">
+                        <h2 class="font-weight-bold mb-3">Preparation is important to make profit</h2>
+                        <p class="mb-5">We help you to make profit by help of our experts advisory.</p>
+                    </div>
+                    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="ConsultThreePrepared2" style="background-image: none;">
+                        <ol class="carousel-indicators o_we_no_overlay d-none">
+                            <li data-slide-to="0" class="active" data-target="#ConsultThreePrepared2"></li>
+                            <li data-slide-to="1" data-target="#ConsultThreePrepared2" class=""></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="" data-name="Slide">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <section class="prepared_item h-100">
+                                            <div class="prepared_item_num mb-4 d-flex align-items-center justify-content-center">
+                                                <h5 class="font-weight-bold mb-0 prepared_item_num_text">1</h5>
+                                            </div>
+                                            <h3 class="font-weight-bold mb-4 prepared_title">
+                                                <a href="#" class="text-decoration-none">Get Best Advice  By Our Experts</a>
+                                            </h3>
+                                            <img src="/theme_nextbiz/static/src/img/consultpage3_prepared1.png" class="img img-fluid"/>
+                                        </section>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <section class="prepared_item h-100">
+                                            <div class="prepared_item_num mb-4 d-flex align-items-center justify-content-center">
+                                                <h5 class="font-weight-bold mb-0 prepared_item_num_text">2</h5>
+                                            </div>
+                                            <h3 class="font-weight-bold mb-4 prepared_title">
+                                                <a href="#" class="text-decoration-none">Make Profit  For Customers</a>
+                                            </h3>
+                                            <img src="/theme_nextbiz/static/src/img/consultpage3_prepared2.png" class="img img-fluid"/>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="" data-name="Slide">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <section class="prepared_item h-100">
+                                                <div class="prepared_item_num mb-4 d-flex align-items-center justify-content-center">
+                                                    <h5 class="font-weight-bold mb-0 prepared_item_num_text">3</h5>
+                                                </div>
+                                                <h3 class="font-weight-bold mb-4 prepared_title">
+                                                    <a href="#" class="text-decoration-none">Our Experienced  Team Help You</a>
+                                                </h3>
+                                                <img src="/theme_nextbiz/static/src/img/consultpage3_prepared3.png" class="img img-fluid"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <section class="prepared_item h-100">
+                                                <div class="prepared_item_num mb-4 d-flex align-items-center justify-content-center">
+                                                    <h5 class="font-weight-bold mb-0 prepared_item_num_text">4</h5>
+                                                </div>
+                                                <h3 class="font-weight-bold mb-4 prepared_title">
+                                                    <a href="#" class="text-decoration-none">Always Prepared  For Challanges</a>
+                                                </h3>
+                                                <img src="/theme_nextbiz/static/src/img/consultpage3_prepared6.png" class="img img-fluid"/>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#ConsultThreePrepared2">
+                            <span class="sr-only o_default_snippet_text">Previous</span>
+                        </a>
+                        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#ConsultThreePrepared2">
+                            <span class="sr-only o_default_snippet_text">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

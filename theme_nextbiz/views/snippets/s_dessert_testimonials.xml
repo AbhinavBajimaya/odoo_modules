@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_testimonials" name="Our Testimonials">
+		<section class="dessert-testimonial parallax s_parallax_is_fixed" >
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_nextbiz/static/src/img/dessert-testimonial.png');"/>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="title text-center">
+						<p>Take a look to the reviews of our foodies</p>
+						<h2>Our testimonials</h2>
+					</div>
+				</div>
+				<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Desserttestimonialcarousel3" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#Desserttestimonialcarousel3"></li>
+            <li data-slide-to="1" data-target="#Desserttestimonialcarousel3" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="" data-name="Slide">
+                <div class="container">
+                    <div class="row position-relative justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="client-content">
+                                <section class="client-info">
+                                    <p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+                                </section>
+                                <div class="auther d-flex align-items-center">
+                                    <div class="image">
+                                        <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                                    </div>
+                                    <div class="auther-info">
+                                        <h5>Paul Williams</h5>
+                                        <span>Foodie</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="client-content">
+                                <section class="client-info">
+                                    <p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+                                </section>
+                                <div class="auther d-flex align-items-center">
+                                    <div class="image">
+                                        <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+                                    </div>
+                                    <div class="auther-info">
+                                        <h5>Anita Oliver</h5>
+                                        <span>Foodie</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item " style="" data-name="Slide">
+                <div class="container">
+                    <div class="row position-relative justify-content-center">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="client-content">
+                                <section class="client-info">
+                                    <p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+                                </section>
+                                <div class="auther d-flex align-items-center">
+                                    <div class="image">
+                                        <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team3.png" />
+                                    </div>
+                                    <div class="auther-info">
+                                        <h5>Andrew Petersons</h5>
+                                        <span>Foodie</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="client-content">
+                                <section class="client-info">
+                                    <p>Lorem ipsum dolor sitame consectetur adipisicing elitosed do eiusmod tempor malo incididunt ut labore et dolore atroce laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderito mareto oploso pertullo markisio benito massolono perto.</p>
+                                </section>
+                                <div class="auther d-flex align-items-center">
+                                    <div class="image">
+                                        <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team4.png" />
+                                    </div>
+                                    <div class="auther-info">
+                                        <h5>Jessy Pinkman</h5>
+                                        <span>Foodie</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Desserttestimonialcarousel3">
+            <span class="fa fa-long-arrow-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Desserttestimonialcarousel3">
+            <span class="fa fa-long-arrow-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+			</div>
+		</section>
+	</template>
+
+</odoo>

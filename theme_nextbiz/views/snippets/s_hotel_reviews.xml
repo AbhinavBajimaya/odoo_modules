@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_hotel_reviews" name="Some Reviews">
+		<section class="hotel-testimonial parallax s_parallax_is_fixed">
+			<span class="s_parallax_bg oe_img_bg oe_custom_bg" style="background-image: url('/theme_nextbiz/static/src/img/hotel-testimonial.jpg');"/>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="heading text-center">
+						<span>Some Reviews</span>
+						<h1>FROM GUEST</h1>
+						<div>
+							<img src="/theme_nextbiz/static/src/img/hotel-flower.png" class="img img-fluid"/>
+						</div>
+					</div>
+				</div>
+				<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Hoteltestimonialcarousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#Hoteltestimonialcarousel2"></li>
+            <li data-slide-to="1" data-target="#Hoteltestimonialcarousel2" class=""></li>
+            <li data-slide-to="2" data-target="#Hoteltestimonialcarousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row position-relative justify-content-center">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                            <div class="client-content">
+                                <div class="image">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+                                </div>
+                                <div class="client-info">
+                                    <h5>Anita Oliver</h5>
+                                    <h6>Graphics Designer</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+                                    <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                        <div class="s_rating_icons o_not_editable">
+                                            <span class="s_rating_active_icons" style="color: #f4bc16 !important;">
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                            </span>
+                                            <span class="s_rating_inactive_icons text-o-color-2">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row position-relative justify-content-center">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                            <div class="client-content">
+                                <div class="image">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                                </div>
+                                <div class="client-info">
+                                    <h5>Paul Williams</h5>
+                                    <h6>Web Developer</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+                                    <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                        <div class="s_rating_icons o_not_editable">
+                                            <span class="s_rating_active_icons" style="color: #f4bc16 !important;">
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                            </span>
+                                            <span class="s_rating_inactive_icons text-o-color-2">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row position-relative justify-content-center">
+                        <div class="col-xl-12 col-lg-12 col-md-12">
+                            <div class="client-content">
+                                <div class="image">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team3.png" />
+                                </div>
+                                <div class="client-info">
+                                    <h5>Jessy Pinkman</h5>
+                                    <h6>Software Engineer</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac tortor at tellus feugiat congue quis ut nunc. Semper ac dolor vitae accumsan. interdum hendrerit lacinia.</p>
+                                    <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                        <div class="s_rating_icons o_not_editable">
+                                            <span class="s_rating_active_icons" style="color: #f4bc16 !important;">
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                                <i class="fa fa-star fa-2x"></i>
+                                            </span>
+                                            <span class="s_rating_inactive_icons text-o-color-2">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Hoteltestimonialcarousel2">
+            <span class="fa fa-angle-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Hoteltestimonialcarousel2">
+            <span class="fa fa-angle-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+			</div>
+		</section>
+	</template>
+
+</odoo>

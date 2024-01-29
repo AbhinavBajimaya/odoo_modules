@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page2_counter" name="Consult Two Counter">
+        <section class="consult_pages">
+            <section class="consult-two-counter pt32 pb80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter1 font-weight-bold">1749</h2>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter2 font-weight-bold">17459</h2>
+                                <p>Project Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter3 font-weight-bold">451</h2>
+                                <p>Support Given</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter4 font-weight-bold">78</h2>
+                                <p>Offices Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

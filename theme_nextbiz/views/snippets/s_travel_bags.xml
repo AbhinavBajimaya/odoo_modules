@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_bags" name="Pack Your Bags">
+		<section class="travel-packup">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-8">
+						<div class="heading">
+							<span>Top Cities</span>
+							<h1>Pack Your Bags</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Travelpackupcarousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#Travelpackupcarousel2"></li>
+            <li data-slide-to="1" data-target="#Travelpackupcarousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city1.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city2.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city3.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city4.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city5.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city6.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city7.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 text-center">
+                        <div class="packup-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/travel-city8.jpg" />
+                                <div class="info">
+                                    <h6>France</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Travelpackupcarousel2">
+            <span class="fa fa-angle-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Travelpackupcarousel2">
+            <span class="fa fa-angle-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

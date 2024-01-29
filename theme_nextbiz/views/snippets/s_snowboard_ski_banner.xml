@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_snowboard_ski_banner" name="Home Banner">
+		<section class="snowboard-home-banner">
+			<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Snowboardcarousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#Snowboardcarousel2"></li>
+            <li data-slide-to="1" data-target="#Snowboardcarousel2" class=""></li>
+            <li data-slide-to="2" data-target="#Snowboardcarousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('/theme_nextbiz/static/src/img/snow-banner1.jpg');">
+                <div class="container">
+                    <div class="position-relative justify-content-center">
+                        <div class="banner-content text-center">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/snow-brand3.png" />
+                            </div>
+                            <h5 class="text-white">From Beginners to Professional Accessories</h5>
+                            <h2 class="text-white">SnowBoards</h2>
+                            <div class="strip">
+                                <section class="sale-text snow-bg">Hurry! 30%-40% Discount This Season</section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/theme_nextbiz/static/src/img/snow-banner2.jpg');">
+                <div class="container">
+                    <div class="banner-content text-center">
+                        <div class="image">
+                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/snow-brand2.png" />
+                        </div>
+                        <h5>From Beginners to Professional Accessories</h5>
+                        <h2>Salomon Ski’s</h2>
+                        <div class="strip">
+                            <section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/theme_nextbiz/static/src/img/snow-banner3.jpg');">
+                <div class="container">
+                    <div class="banner-content text-center">
+                        <div class="image">
+                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/snow-brand5.png" />
+                        </div>
+                        <h5>From Beginners to Professional Accessories</h5>
+                        <h2>SnowBoards</h2>
+                        <div class="strip">
+                            <section class="sale-text">Hurry! 30%-40% Discount This Season</section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Snowboardcarousel2">
+            <span class="fa fa-angle-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Snowboardcarousel2">
+            <span class="fa fa-angle-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+		</section>
+	</template>
+
+</odoo>

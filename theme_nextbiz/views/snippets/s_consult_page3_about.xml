@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_consult_page3_about" name="Consult Three About">
+        <section class="consult_pages">
+            <section class="s_text_image consult-one-about o_colored_level" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;background-color: #f3f2f8;">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 o_colored_level py-2" style="">
+                            <img src="/theme_nextbiz/static/src/img/consultpage3_prepared8.png" class="img img-fluid mr-auto about_img"/>
+                        </div>
+                        <div class="col-lg-6 o_colored_level">
+                            <h6 class="title font-weight-bold mb-4">Know Aboutus</h6>
+                            <h2 class="font-weight-bold mb-4">Choose Packege As 
+ Per Your Need</h2>
+                            <p class="mb-5 subtitle font-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                            <div class="about_ul mb56">
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Better ideas</span>
+                                                    </section>
+                                                                                  
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Personal advisor</span>
+                                                    </section>
+                                                
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Good Services</span>
+                                                    </section>
+                                                
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Business Plan</span>
+                                                    </section>
+                                                
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Expert Team</span>
+                                                    </section>
+                                                
+                                                
+                                                    <section>
+                                                        <span class="font-weight-bold ri ri-check-line about_list fa-1x"/>
+                                                        <span class="font-large font-weight-bold">Profittable Growth</span>
+                                                    </section>
+                                                
+                                               
+                                            </div>
+                            <a href="#" class="btn btn-outline-primary btn-lg">
+                                <span>What We Do?</span>
+                                <i class="fa fa-long-arrow-right ml-2"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

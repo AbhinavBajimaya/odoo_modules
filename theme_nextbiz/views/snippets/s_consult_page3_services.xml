@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_consult_page3_services" name="Consult Three Services">
+        <section class="consult_pages">
+            <section class="consult-three-services o_colored_level oe_img_bg o_bg_img_center" style="background-image: url('/theme_nextbiz/static/src/img/consult_bg_wave.png');">
+                <div class="container">
+                    <div class="row service_row">
+                        <div class="col-lg-3 col-md-6 service_col">
+                            <div class="p-4 bg-white service_content shadow-sm h-100">
+                                <img src="/theme_nextbiz/static/src/img/consulrpage1_service8.png" class="img img-fluid service_img mb32"/>
+                                <h4 class="font-weight-bold service_title m-0">
+                                    <a href="#" class="text-decoration-none">Knowledge Sharing</a>
+                                </h4>
+                                <p>Data Analysis</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 service_col">
+                            <div class="p-4 bg-white service_content shadow-sm h-100">
+                                <img src="/theme_nextbiz/static/src/img/consulrpage1_service7.png" class="img img-fluid service_img mb32"/>
+                                <h4 class="font-weight-bold service_title m-0">
+                                    <a href="#" class="text-decoration-none">Add Assistant</a>
+                                </h4>
+                                <p>Experienced</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 service_col">
+                            <div class="p-4 bg-white service_content shadow-sm h-100">
+                                <img src="/theme_nextbiz/static/src/img/consulrpage1_service6.png" class="img img-fluid service_img mb32"/>
+                                <h4 class="font-weight-bold service_title m-0">
+                                    <a href="#" class="text-decoration-none">Customer Services</a>
+                                </h4>
+                                <p>Responsive Design</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 service_col">
+                            <div class="p-4 bg-white service_content shadow-sm h-100">
+                                <img src="/theme_nextbiz/static/src/img/consulrpage1_service5.png" class="img img-fluid service_img mb32"/>
+                                <h4 class="font-weight-bold service_title m-0">
+                                    <a href="#" class="text-decoration-none">Advisory</a>
+                                </h4>
+                                <p>By professionals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,52 @@
+.coming-soon-banner{
+	background-color:#f9f9f9;
+	.logo-icons{
+		.logo{
+
+		}
+		.social-icons{
+			list-style:none;
+			padding:0;
+			margin:0;
+			text-align:right;
+			li{
+				display: inline-block;
+				a{
+					color: #1b1b1b;
+					font-size: 25px;
+					margin: 0 5px;
+				}
+			}
+		}
+	}
+	.content{
+		
+		p{
+			color: #686777;
+			line-height: 30px !important;
+			font-size: large;
+		}
+		
+	}
+}
+.template_404_page{
+	background-color: #f9f9f9;
+	padding: 100px 0 400px;
+	@media (max-width: 767.98px) {
+		padding:100px 0 150px;
+	}
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		padding: 100px 0 300px;
+	}
+	@media (min-width: 992px) and (max-width: 1199.98px) {
+		padding: 100px 0 350px;
+	}
+	p{
+		color: #686777;
+		line-height: 30px !important;
+		font-size: large;
+	}
+}
+.thank-you-banner{
+	
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page1_pricing" name="Consult One Pricing">
+        <section class="consult_pages">
+            <section class="s_tabs consult-one-pricing  o_colored_level" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+                <div class="container">
+                    <div class="text-center">
+                                        <h6 class="font-weight-bold mb-3 title">Our Team</h6>
+                                        <h2 class="font-weight-bold mb-3">Flexible Pricing Packages</h2>
+                                        <p class="">join and get 20% off coupon</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center my-4">
+                                        <section class="offer badge p-2">
+                                            Save 20%
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/offer_arrow.png"></img>
+                                        </section>
+                                    </div>
+                    <div class="s_tabs_main">
+                        <div class="s_tabs_nav mb-3">
+                            <ul class="nav nav-pills mx-auto" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text active" id="C2nav_tabs_link_1653281602084_22" data-toggle="tab" href="#nav_tabs_content_1653281602084_22" role="tab" aria-controls="nav_tabs_content_1653281602084_22" aria-selected="true">Yearly</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="C2nav_tabs_link_1653281602085_23" data-toggle="tab" href="#nav_tabs_content_1653281602085_23" role="tab" aria-controls="nav_tabs_content_1653281602085_23" aria-selected="false">Monthly</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s_tabs_content tab-content">
+                            <div class="tab-pane fade active show" id="nav_tabs_content_1653281602084_22" role="tabpanel" aria-labelledby="C2nav_tabs_link_1653281602084_22">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block" style="background-image: none;">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <div class="consult_pricing_content">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Basix</h3>
+                                                        <h1 class="font-weight-bold display-4">$60</h1>
+                                                        <span>Per Year</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <section class="consult_pricing_content active">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Competitive</h3>
+                                                        <h1 class="font-weight-bold display-4">$150</h1>
+                                                        <span>Per Year</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block btn-light">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <div class="consult_pricing_content">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Premium</h3>
+                                                        <h1 class="font-weight-bold display-4">$250</h1>
+                                                        <span>Per Year</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav_tabs_content_1653281602085_23" role="tabpanel" aria-labelledby="C2nav_tabs_link_1653281602085_23">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block" style="background-image: none;">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <div class="consult_pricing_content">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Basix</h3>
+                                                        <h1 class="font-weight-bold display-4">$5</h1>
+                                                        <span>Per Month</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <section class="consult_pricing_content active">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Competitive</h3>
+                                                        <h1 class="font-weight-bold display-4">$15</h1>
+                                                        <span>Per Month</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block btn-light">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 my-2">
+                                                <div class="consult_pricing_content">
+                                                    <div class="price text-center mb-5">
+                                                        <h3 class="font-weight-bold mb-4">Premium</h3>
+                                                        <h1 class="font-weight-bold display-4">$25</h1>
+                                                        <span>Per Month</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <span>Upload Your Logo</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>photos &amp; videos</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Templates Library</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="text-center mt-5">
+                                                        <a href="#" class="btn btn-lg btn-block">
+                                                                            Get Started
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

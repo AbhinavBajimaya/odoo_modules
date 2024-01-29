@@ -1,0 +1,172 @@
+.consult-three-banner {
+    padding: 120px 0 120px 0;
+}
+@media (max-width: 767px) {
+    .consult-three-banner {
+        padding: 64px 0 64px 0;
+   }
+}
+.consult-three-banner .welcome_text {
+    background-color: rgba(70, 54, 255, .1);
+    border-radius: 6px;
+    color: theme-color('primary');
+}
+.consult-three-banner .o_masonry_col img {
+    max-width: fit-content !important;
+    min-width: 30px !important;
+}
+.consult-three-services {
+    padding: 120px 0;
+}
+@media (max-width: 1198px) {
+    .consult-three-services {
+        padding: 0 0 120px 0;
+   }
+}
+@media (max-width: 767px) {
+    .consult-three-services {
+        padding: 0 0 64px 0;
+   }
+}
+.consult-three-services .service_row {
+    margin-left: -2px !important;
+    margin-right: -2px !important;
+}
+.consult-three-services .service_row .service_col {
+    padding: 2px !important;
+}
+.consult-three-services .service_row .service_col .service_content .service_title a {
+    transition: 0.2s;
+    color: unset;
+}
+.consult-three-services .service_row .service_col .service_content .service_title a:hover {
+    color: theme-color('primary');
+}
+.consult-three-services .service_row .service_col .service_content .service_img {
+    transition: 0.2s;
+}
+.consult-three-services .service_row .service_col .service_content:hover {
+    box-shadow: 0 20px 20px 0 rgba(3, 0, 53, 0.06);
+}
+.consult-three-services .service_row .service_col .service_content:hover .service_img {
+    transform: translateY(-10px);
+}
+.consult-three-profit {
+    padding: 120px 0;
+}
+@media (max-width: 767px) {
+    .consult-three-profit {
+        padding: 64px 0;
+   }
+}
+.consult-three-profit .profit_icon {
+    line-height: 1;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px 0 rgba(8, 2, 46, 0.1);
+}
+.consult-three-profit .knowledge {
+    padding: 88px 0;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+@media (max-width: 767px) {
+    .consult-three-profit .knowledge {
+        padding: 48px 0;
+   }
+}
+.consult-three-prepared {
+    padding: 120px 0;
+}
+@media (max-width: 767px) {
+    .consult-three-prepared {
+        padding: 64px 0;
+   }
+}
+.consult-three-prepared .prepared_item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 60px 60px 30px 60px;
+}
+@media (max-width: 1198px) {
+    .consult-three-prepared .prepared_item {
+        padding: 30px;
+   }
+}
+.consult-three-prepared .prepared_item .prepared_item_num {
+    width: fit-content;
+    border-radius: 50%;
+    background: theme-color('primary') 1a;
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+.consult-three-prepared .prepared_item .prepared_item_num .prepared_item_num_text {
+    color: theme-color('primary');
+}
+.consult-three-prepared .prepared_item .prepared_title a {
+    color: unset;
+    transition: 0.2s;
+}
+.consult-three-prepared .prepared_item .prepared_title a:hover {
+    color: theme-color('primary');
+}
+.consult-three-prepared .prepared_item:hover .prepared_item_num {
+    background-color: theme-color('primary');
+}
+.consult-three-prepared .prepared_item:hover .prepared_item_num .prepared_item_num_text {
+    color: #fff;
+}
+.consult-three-faq {
+    padding: 0 0 120px 0;
+}
+@media (max-width: 767px) {
+    .consult-three-faq {
+        padding: 0 0 64px 0;
+   }
+}
+.consult-three-faq .right_content {
+    background-image: url('/theme_nextbiz/static/src/img/consult-three-faq-bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+}
+.consult-three-faq .s_faq_collapse .card {
+    margin-bottom: 20px;
+    border: unset;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 30px 0 rgba(3, 0, 53, 0.1);
+}
+.consult-three-faq .s_faq_collapse .card .card-header {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+    border: unset;
+    position: relative;
+    padding: 15px 40px 15px 23px !important;
+}
+.consult-three-faq .s_faq_collapse .card .card-header.collapsed {
+    color: unset !important;
+}
+.consult-three-faq .s_faq_collapse .card .card-header:not(.collapsed) {
+    color: theme-color('primary');
+}
+.consult-three-faq .s_faq_collapse .card .card-header.collapsed:before {
+    content: "\e61a" !important;
+    font-family: 'themify' !important;
+    position: absolute;
+    right: 23px;
+    color: #6c757d !important;
+}
+.consult-three-faq .s_faq_collapse .card .card-header:before {
+    content: "\e622" !important;
+    font-family: 'themify' !important;
+    position: absolute;
+    right: 23px;
+    color: #490ebe !important;
+}
+.consult-three-faq .s_faq_collapse .card .card-body {
+    line-height: 26px;
+    padding: 0 70px 30px 30px !important;
+}

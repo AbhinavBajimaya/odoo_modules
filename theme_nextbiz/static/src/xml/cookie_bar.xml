@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+	<t t-extend="website.template.cookies_bar.discrete">
+		<t t-jquery=".o_cookies_bar_text_policy" t-operation="replace">
+            <a href="/cookie-policy" class="o_cookies_bar_text_policy btn btn-md bizople_button_4 btn-outline-secondary">Cookie Policy</a>
+		</t>
+        <t t-jquery=".o_cookies_bar_text_button" t-operation="attributes">
+            <attribute name="class" value="js_close_popup o_cookies_bar_text_button btn btn-primary btn-md"></attribute>
+        </t>
+	</t>
+
+    <t t-extend="website.cookies_bar.classic">
+        <t t-jquery=".o_cookies_bar_text_policy" t-operation="attributes">
+            <attribute name="class" value="o_cookies_bar_text_policy btn btn-md bizople_button_4 btn-outline-secondary"></attribute>
+        </t>
+        <t t-jquery=".o_cookies_bar_text_button" t-operation="attributes">
+            <attribute name="class" value="js_close_popup o_cookies_bar_text_button btn btn-primary btn-md"></attribute>
+        </t>
+    </t>
+
+    <t t-extend="website.cookies_bar.popup">
+        <t t-jquery=".o_cookies_bar_text_policy" t-operation="attributes">
+            <attribute name="class" value="o_cookies_bar_text_policy btn btn-md bizople_button_4 btn-outline-secondary"></attribute>
+        </t>
+        <t t-jquery=".o_cookies_bar_text_button" t-operation="attributes">
+            <attribute name="class" value="js_close_popup o_cookies_bar_text_button btn btn-primary btn-md"></attribute>
+        </t>
+    </t>
+
+</templates>

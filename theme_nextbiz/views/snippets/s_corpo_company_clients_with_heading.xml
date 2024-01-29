@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_company_clients_with_heading" name="Clients with Heading">
+      	<div class="oe_structure"/>
+      	
+      	<section class="s_references pt56 o_colored_level" data-snippet="s_references" data-name="References">
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<div class="col-lg-7">
+						<p class="m-0 section-heading one-side-heading-line two-line text-uppercase">our clients</p>
+					</div>
+				</div>
+				<div class="row mt32">
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_1" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_2" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_3" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_4" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_demo_image_5" class="img img-fluid mx-auto"/>
+					</div>
+					<div class="col-md-4 col-lg-2 pt16 pb16 o_colored_level">
+						<img src="/web/image/website.s_reference_default_image_6" class="img img-fluid mx-auto"/>
+					</div>
+				</div>
+			</div>
+		</section>
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

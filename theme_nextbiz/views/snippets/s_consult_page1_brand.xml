@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page1_brand" name="Consult One Brand">
+        <section class="consult_pages">
+            <section class="s_tabs consult-one-brand">
+                <div class="container">
+                    <div class="text-center">
+                        <h6 class="title font-weight-bold">Our Clients</h6>
+                        <h2 class="font-weight-bold mb-4">We Have More than 102 designers. To make attractive pages</h2>
+                        <p class="subtitle">Design anything  From Icons,Images etc.  To Build Responsive websites and applications.</p>
+                    </div>
+                    <div class="row">
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-1.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-2.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-3.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-4.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-5.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-6.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-7.png"/>
+                                        </div>
+                                        <div class="col-6 col-md-3 text-center my-5">
+                                            <img class="img img-fluid" src="/theme_nextbiz/static/src/img/brand-8.png"/>
+                                        </div>
+                                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page1_strategy" name="Consult One Strategy">
+        <section class="consult_pages">
+            <section class="consult-one-strrtagy o_colored_level" style="background-image: none; position: relative;" data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Wavy/17&quot;,&quot;colors&quot;:{&quot;c1&quot;:&quot;#DD24FF&quot;},&quot;flip&quot;:[&quot;x&quot;]}">
+          <div class="o_we_shape o_web_editor_Wavy_17" style="background-image: url(&quot;/web_editor/shape/web_editor/Wavy/17.svg?c1=%23DD24FF&amp;flip=x&quot;); background-position: 50% 0%;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="strrtagy_content">
+                                <div class="container">
+                                    <h6 class="font-weight-bold text-white mb-4">Our Capabilities</h6>
+                                    <h2 class="text-white mb-4 font-weight-bold">We Make Strategy design for every detail</h2>
+                                    <ol class="strrtagy_list text-white">
+                                        <li class="h5">Data Analysis</li>
+                                        <li class="h5">Responsive Design</li>
+                                        <li class="h5">Testing &amp; Release</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <section class="d-none d-lg-block oe_img_bg o_bg_img_center h-100 w-50 right_img" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_stretagy.jpg&quot;);">
+                </section>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

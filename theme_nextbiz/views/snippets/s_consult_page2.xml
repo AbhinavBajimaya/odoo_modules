@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_consult_page2" name="Consult Two">
+        <section class="consult_pages">
+            <section class="s_carousel_wrapper oe_img_bg o_bg_img_center consult-two-banner pt80" style="background-image: url('/theme_nextbiz/static/src/img/consultpage2_banner.jpg');" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="ConsultTwoBanner3" style="background-image: none;">
+                    <ol class="carousel-indicators o_we_no_overlay d-none">
+                        <li data-slide-to="0" class="active" data-target="#ConsultTwoBanner3"></li>
+                        <li data-slide-to="1" data-target="#ConsultTwoBanner3" class=""></li>
+                        <li data-slide-to="2" data-target="#ConsultTwoBanner3" class=""></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item pt256 pb256 oe_img_bg o_bg_img_center " style="" data-name="Slide">
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-10 offset-lg-1 text-center">
+                                        <h1 class="text-white font-weight-bold mb-4">Finance Consulting For Tough Times</h1>
+                                        <p class="mb-4 text-white">Work with a Expert advisor to plan for your future.</p>
+                                        <a class="btn btn-outline-light btn-lg" href="#">Get a Free Quote</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256 oe_img_bg o_bg_img_center" style="" data-name="Slide">
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <section class="banner_content">
+                                            <div class="banner_content_detail">
+                                                <span class="text-white welcome_text px-2 py-1 mb-3">Welcome To Nextbiz</span>
+                                                <h1 class="text-white font-weight-bold mb-4">Get more Impact Swiftly</h1>
+                                                <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <a class="btn btn-outline-light btn-lg" href="#">See Whats New</a>
+                                            </div>
+                                            
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item pt256 pb256 oe_img_bg o_bg_img_center active" style="" data-name="Slide">
+                            
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 offset-lg-6">
+                                        <section class="banner_content">
+                                            <div class="banner_content_detail">
+                                                <h1 class="text-white font-weight-bold mb-4">We Will  help Your Buisness to grow faster</h1>
+                                                <p class="text-white mt-2 mb-4">Work with a Expert advisor to plan for your future.</p>
+                                                <a class="btn btn-outline-light btn-lg" href="#">See Whats New</a>
+                                            </div>
+                                            
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#ConsultTwoBanner3">
+                        <span class="sr-only o_default_snippet_text">Previous</span>
+                    </a>
+                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#ConsultTwoBanner3">
+                        <span class="sr-only o_default_snippet_text">Next</span>
+                    </a>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-design">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-6">
+                            <h6 class="title font-weight-bold mb-3">Design</h6>
+                            <h1 class="font-weight-bold mb-4">Upgrade  your design</h1>
+                                            <p class="mb64 subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                            <div class="">
+                                <a href="#" class="btn btn-primary btn-lg">What We Do <i class="fa fa-long-arrow-right fa-1x ml-1"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 offset-xl-1">
+                            <div class="row">
+                                                <div class="col-md-6 my-3">
+                                                    <section class="design_content py-5 px-4 oe_img_bg o_bg_img_center">
+                                                        <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                        <section class="bg-white detail"/>                                                
+                                                        <i class="fa fa-lightbulb-o design-icon fa-2x mb-3"/>
+                                                        <h4 class="font-weight-bold">Knowledge</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <i class="lni lni-arrow-right fa-2x next_btn"/>
+                                                    </section>
+                                                </div>
+                                                <div class="col-md-6 my-3">
+                                                    <section class="design_content py-5 px-4 oe_img_bg o_bg_img_center">
+                                                        <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                        <section class="bg-white detail"/>                                                  
+                                                            <i class="fa fa-joomla design-icon fa-2x mb-3"/>
+                                                            <h4 class="font-weight-bold">Expert Advice</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                            <i class="lni lni-arrow-right fa-2x next_btn"/>
+                                                        </section>
+                                                </div>
+                                                <div class="col-md-6 my-3">
+                                                    <section class="design_content py-5 px-4 oe_img_bg o_bg_img_center">
+                                                        <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                        <section class="bg-white detail"/>                                                  
+                                                            <i class="fa fa-file-text-o design-icon fa-2x mb-3"/>
+                                                            <h4 class="font-weight-bold">Growth In Profit</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                            <i class="lni lni-arrow-right fa-2x next_btn"/>
+                                                        </section>
+                                                </div>
+                                                <div class="col-md-6 my-3">
+                                                    <section class="design_content py-5 px-4 oe_img_bg o_bg_img_center">
+                                                        <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                        <section class="bg-white detail"/>                                                  
+                                                            <i class="fa fa-lock design-icon fa-2x mb-3"/>
+                                                            <h4 class="font-weight-bold">Great Work</h4>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                            <i class="lni lni-arrow-right fa-2x next_btn"/>
+                                                        </section>
+                                                </div>
+                                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-faq">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-7 col-lg-5">
+                            <div class="">
+                                <h6 class="title font-weight-bold mb-3">Thinking</h6>
+                                <h2 class="font-weight-bold">Knowledge is the best Thing</h2>
+                                <section class="s_faq_collapse pt32 pb32 o_colored_level" data-snippet="s_faq_collapse" data-name="Accordion" style="background-image: none;">
+                                    <div class="container">
+                                        <div id="Consult2Faq3" class="accordion" role="tablist">
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="true" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155386">No rocket science included</a>
+                                                <div class="collapse" data-parent="#Consult2Faq3" role="tabpanel" id="myCollapseTab1653299155386">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155387">Blazing Site Performance</a>
+                                                <div class="collapse" data-parent="#Consult2Faq3" role="tabpanel" id="myCollapseTab1653299155387">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155388">Bonus Plugins Included</a>
+                                                <div class="collapse" data-parent="#Consult2Faq3" role="tabpanel" id="myCollapseTab1653299155388">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="left_content oe_img_bg  w-50 d-none d-lg-block" style="background-image:url('/theme_nextbiz/static/src/img/consultpage2_faq2.jpg');">
+                </section>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-achivement">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-5 col-md-12 my-2">
+                                            <h6 class="title font-weight-bold mb-3">Achievement</h6>
+                                            <h2 class="font-weight-bold mb-3">We are certified financial experts</h2>
+                                            <p class="mb-5 subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+                                            <div class="row mb-5">
+                                                <div class="col-6">
+                                                    <img class="img img-fluid achivement_img mb-4" src="/theme_nextbiz/static/src/img/consulrpage1_service4.png"/>
+                                                    <h5 class="font-weight-bold">Acquisitions Finance Consulting</h5>
+                                                </div>
+                                                <div class="col-6">
+                                                    <img class="img img-fluid achivement_img mb-4" src="/theme_nextbiz/static/src/img/consulrpage1_service5.png"/>
+                                                    <h5 class="font-weight-bold">Acquisitions Finance Consulting</h5>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                                        </div>
+                                        <div class="col-xl-7 col-md-12 my-2">
+                                            <div class="row">
+                                                <div class="col-md-7 mb-2">
+                                                    <img src="/theme_nextbiz/static/src/img/consultpage2_achievement2.jpg" class="img img-fluid right_img"/>
+                                                </div>
+                                                <div class="col-md-5">
+                                                    <img src="/theme_nextbiz/static/src/img/consultpage2_achievement3.jpg" class="img img-fluid right_img"/>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </section>
+            <div class="oe_structure"/>
+
+            <section class="s_tabs consult-two-tabs  pb48 oe_img_bg o_bg_img_center" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: url('/theme_nextbiz/static/src/img/consult_bg_wave.png');">
+                <div class="container">
+                    <div class="s_tabs_main">
+                        <div class="s_tabs_nav">
+                            <ul class="nav nav-pills justify-content-end" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active o_default_snippet_text" id="nav_tabs_link_1" data-toggle="tab" href="#nav_tabs_content_1" role="tab" aria-controls="nav_tabs_content_1" aria-selected="true">Philosophy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text" id="nav_tabs_link_2" data-toggle="tab" href="#nav_tabs_content_2" role="tab" aria-controls="nav_tabs_content_2" aria-selected="false">Work Area</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s_tabs_content tab-content">
+                            <div class="tab-pane fade show active" id="nav_tabs_content_1" role="tabpanel" aria-labelledby="nav_tabs_link_1">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6 d-none d-lg-block">
+                                                <img src="/theme_nextbiz/static/src/img/consultpage2_tab1.jpg" class="img img-fluid w-100 h-100 expert_img"/>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="details">
+                                                    <h3 class="font-weight-bold mb-4">Our experts will  guide you every time</h3>
+                                                    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    <p class="mb40 subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav_tabs_content_2" role="tabpanel" aria-labelledby="nav_tabs_link_2">
+                                <div class="oe_structure oe_empty">
+                                    <section class="s_text_block">
+                                        <div class="row align-items-center">
+                                            <div class="col-lg-6 d-none d-lg-block">
+                                                <img src="/theme_nextbiz/static/src/img/consultpage2_tab2.jpg" class="img img-fluid w-100 h-100 expert_img"/>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="details">
+                                                    <h3 class="font-weight-bold mb-4">Our experts will  guide you every time</h3>
+                                                    <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                                    <p class="mb40 subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-counter pt32 pb80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter1 font-weight-bold">1749</h2>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter2 font-weight-bold">17459</h2>
+                                <p>Project Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter3 font-weight-bold">451</h2>
+                                <p>Support Given</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="text-center">
+                                <h2 class="counter4 font-weight-bold">78</h2>
+                                <p>Offices Worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-success pt120 pb120 oe_img_bg o_bg_img_center" style="background-image: url(&quot;/theme_nextbiz/static/src/img/consultpage1_contact.jpg&quot;);">
+                                <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208,0.9) 20%, rgba(23, 13, 162, 0.9) 100%) !important;"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h6 class="text-white font-weight-bold mb-3">Testimonials</h6>
+                            <h2 class="text-white font-weight-bold mb-3">Our Clients Success Story</h2>
+                            <section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+                                <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="ConsultTwoTestimonial4" style="background-image: none;">
+                                    <ol class="carousel-indicators o_we_no_overlay">
+                                        <li data-slide-to="0" class="active" data-target="#ConsultTwoTestimonial4"></li>
+                                        <li data-slide-to="1" data-target="#ConsultTwoTestimonial4" class=""></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" style="" data-name="Slide">
+                                            <h4 class="text-white mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+                                            <div class="d-flex">
+                                                <i class="ri ri-double-quotes-l text-white fa-3x"/>
+                                                <div class="ml-2">
+                                                    <h5 class="text-white font-weight-bold mb-0">John Doe</h5>
+                                                    <span class="text-white">Developer</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item" style="" data-name="Slide">
+                                            <h4 class="text-white mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+                                            <div class="d-flex">
+                                                <i class="ri ri-double-quotes-l text-white fa-3x"/>
+                                                <div class="ml-2">
+                                                    <h5 class="text-white font-weight-bold mb-0">John Doe</h5>
+                                                    <span class="text-white">Founder &amp; CEO</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#ConsultTwoTestimonial4">
+                                        <span class="sr-only o_default_snippet_text">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#ConsultTwoTestimonial4">
+                                        <span class="sr-only o_default_snippet_text">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="/theme_nextbiz/static/src/img/consultpage2_testiminial.png" class="img img-fluid mx-auto mt-3 mt-lg-0"/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-two-casestudy s_tabs" data-vcss="001" data-snippet="s_tabs" data-name="Tabs" style="background-image: none;">
+                <div class="container">
+                    <div class="text-center">
+                        <h6 class="font-weight-bold title mb-3">Case Studies</h6>
+                        <h2 class="font-weight-bold mb-3">Our Works.</h2>
+                    </div>
+                    <div class="s_tabs_main">
+                        <div class="s_tabs_nav my-5">
+                            <ul class="nav nav-pills justify-content-center" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active o_default_snippet_text" id="consult-two_casestudy_nav_tabs_link_1" data-toggle="tab" href="#consult-two_casestudy_nav_tabs_content_1" role="tab" aria-controls="consult-two_casestudy_nav_tabs_content_1" aria-selected="true">Coaching</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text" id="consult-two_casestudy_nav_tabs_link_2" data-toggle="tab" href="#consult-two_casestudy_nav_tabs_content_2" role="tab" aria-controls="consult-two_casestudy_nav_tabs_content_2" aria-selected="false">Facilitaion</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text" id="consult-two_casestudy_nav_tabs_link_3" data-toggle="tab" href="#consult-two_casestudy_nav_tabs_content_3" role="tab" aria-controls="consult-two_casestudy_nav_tabs_content_3" aria-selected="false">Consulting</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link o_default_snippet_text" id="consult-two_casestudy_nav_tabs_link_4" data-toggle="tab" href="#consult-two_casestudy_nav_tabs_content_4" role="tab" aria-controls="consult-two_casestudy_nav_tabs_content_4" aria-selected="false">Stretagy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="s_tabs_content tab-content">
+                            <div class="tab-pane fade show active" id="consult-two_casestudy_nav_tabs_content_1" role="tabpanel" aria-labelledby="consult-two_casestudy_nav_tabs_link_1">
+                                <div class="row">
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i1.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Development</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Development</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i2.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Data Analysis</a>
+                                                                </h4>
+                                                                <span class="text-white">Analysis</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Data Analysis</a>
+                                                                </h4>
+                                                                <span class="text-white">Analysis</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i3.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Facilitaion</a>
+                                                                </h4>
+                                                                <span class="text-white">Coaching</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Facilitaion</a>
+                                                                </h4>
+                                                                <span class="text-white">Coaching</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+
+                                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="consult-two_casestudy_nav_tabs_content_2" role="tabpanel" aria-labelledby="consult-two_casestudy_nav_tabs_link_2">
+                                <div class="row">
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i4.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Leadership</a>
+                                                                </h4>
+                                                                <span class="text-white">Stretagy</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Leadership</a>
+                                                                </h4>
+                                                                <span class="text-white">Stretagy</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i5.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Plan</a>
+                                                                </h4>
+                                                                <span class="text-white">Stretagy</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Plan</a>
+                                                                </h4>
+                                                                <span class="text-white">Stretagy</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i6.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Growth</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Growth</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+
+
+                                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="consult-two_casestudy_nav_tabs_content_3" role="tabpanel" aria-labelledby="consult-two_casestudy_nav_tabs_link_3">
+                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i7.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Human Resources</a>
+                                                                </h4>
+                                                                <span class="text-white">Management</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Human Resources</a>
+                                                                </h4>
+                                                                <span class="text-white">Management</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i8.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Web Development</a>
+                                                                </h4>
+                                                                <span class="text-white">IT</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Web Development</a>
+                                                                </h4>
+                                                                <span class="text-white">IT</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i9.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Plan</a>
+                                                                </h4>
+                                                                <span class="text-white">Strategy</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Plan</a>
+                                                                </h4>
+                                                                <span class="text-white">Strategy</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+
+
+                                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="consult-two_casestudy_nav_tabs_content_4" role="tabpanel" aria-labelledby="consult-two_casestudy_nav_tabs_link_4">
+                                <div class="row">
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i10.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Leadership</a>
+                                                                </h4>
+                                                                <span class="text-white">Strategy</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Leadership</a>
+                                                                </h4>
+                                                                <span class="text-white">Strategy</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i11.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Development</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Business Development</a>
+                                                                </h4>
+                                                                <span class="text-white">Consulting</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i12.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Data Analysis</a>
+                                                                </h4>
+                                                                <span class="text-white">Analysis</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Data Analysis</a>
+                                                                </h4>
+                                                                <span class="text-white">Analysis</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                                        <section class="oe_img_bg  casestydy_content" style="background-image:url('/theme_nextbiz/static/src/img/consult-two-casestudy-i13.jpg');">
+                                                            <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208, 0.9) 20%, rgba(130, 13, 162, 0.47) 100%) !important;"></div>
+                                                            <div class="detail1 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Facilitaion</a>
+                                                                </h4>
+                                                                <span class="text-white">Coaching</span>
+                                                            </div>
+                                                            <div class="detail2 p-4">
+                                                                <h4 class="font-weight-bold">
+                                                                    <a href="#" class="text-decoration-none text-white">Facilitaion</a>
+                                                                </h4>
+                                                                <span class="text-white">Coaching</span>
+                                                            </div>
+                                                            <div class="add_btn">
+                                                                <i class="ti ti-plus fa-1x"/>
+                                                            </div>
+                                                        </section>
+                                                    </div>
+
+                                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+
+            <section class="consult-one-work o_colored_level oe_img_bg o_bg_img_center" style="background-image: url(&quot;/theme_nextbiz/static/src/img/consultpage1_contact.jpg&quot;);">
+                <div class="o_we_bg_filter" style="background-image: linear-gradient(60deg, rgba(105, 14, 208,0.9) 20%, rgba(23, 13, 162, 0.9) 100%) !important;"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                                        <div class="col-xl-10">
+                                            <h5 class="text-center text-white mb-3">We have added a new features in our latest version.</h5>
+                                            <h1 class="text-center text-white font-weight-bold mb-5">Do You Have Any Query? Feel Free To Ask Us About Queries.</h1>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <a href="#" class="btn btn-light btn-lg mx-2">
+                                                    Contact Us
+                                                </a>
+                                                <a href="#" class="btn btn-outline-light btn-lg mx-2">
+                                                    Work With Us
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

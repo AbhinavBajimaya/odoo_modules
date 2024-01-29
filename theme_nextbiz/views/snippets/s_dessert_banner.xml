@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_dessert_banner" name="Home Banner">
+		<section class="dessert-home-banner">
+			<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Dessert-carousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#Dessert-carousel2"></li>
+            <li data-slide-to="1" data-target="#Dessert-carousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('/theme_nextbiz/static/src/img/desser-banner1.png');">
+                <div class="container">
+                    <div class="banner-content text-center">
+                        <div class="star">
+                            <span class="fa fa-star fa-2x"/>
+                            <span class="fa fa-star fa-2x"/>
+                            <span class="fa fa-star fa-2x"/>
+                        </div>
+                        <h2>Freezing Chocolate<br></br>Ice Cream For Everyone</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+                        <div class="s_btn" data-name="Button">
+                            <a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('/theme_nextbiz/static/src/img/desser-banner2.png');">
+                <div class="container">
+                    <div class="banner-content text-center">
+                        <div class="star">
+                            <span class="fa fa-star fa-2x"/>
+                            <span class="fa fa-star fa-2x"/>
+                            <span class="fa fa-star fa-2x"/>
+                        </div>
+                        <h2>Delicious Ice Cream Pie<br></br>For Children</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br>Sed tincidunt imperdiet urna, vitae pharetra eros rutrum eu.</p>
+                        <div class="s_btn" data-name="Button">
+                            <a href="#" class="btn btn-outline-secondary btn-lg">View The Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Dessert-carousel2">
+            <span class="fa fa-long-arrow-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Dessert-carousel2">
+            <span class="fa fa-long-arrow-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+		</section>
+	</template>
+
+</odoo>

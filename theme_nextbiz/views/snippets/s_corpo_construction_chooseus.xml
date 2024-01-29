@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_construction_chooseus" name="Choose Us">
+      	<div class="oe_structure"/>
+
+      	<section class="pt80 corpo_construct_choose_us s_parallax bg-black-50 o_colored_level s_parallax_no_overflow_hidden oe_img_bg o_half_screen_height" data-scroll-background-ratio="0" data-snippet="s_parallax" data-name="Parallax" style="background-image: url('/theme_nextbiz/static/src/img/construct-choosebg.jpg'); background-position:center;">
+			<div class="o_we_bg_filter bg-black-50"/>
+			<div class="oe_structure oe_empty" data-editor-message="DRAG BUILDING BLOCKS HERE">
+				<section class="chooseus_content">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="project-title">
+									<p class="m-0 section-heading one-side-heading-line text-uppercase text-white">
+										choose us
+									</p>
+									<h2 class="o_default_snippet_text text-white">
+										Why choose us?
+									</h2>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center pt32">
+							<div class="col-md-6">
+								<div class="projects-content-left">
+									<h4 class="text-white">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									</h4>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="projects-content-right">
+									<p class="mt-3 mt-md-0 text-muted">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="s_features_grid o_colored_level pt40 pb80" data-snippet="s_features_grid" data-name="Features Grid" style="">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 s_col_no_bgcolor pb24">
+								<div class="row">
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-hospital-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Healthcare Buildings
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-bank-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Government Sectors
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-building-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Safe Construction
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 s_col_no_bgcolor pb24">
+								<div class="row">
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-government-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Education Buildings
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-building-2-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Corporate Buildings
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+									<div class="col-lg-12 pt16 pb16 o_colored_level" data-name="Box">
+										<span class="ri ri-store-2-line fa-3x s_features_grid_icon text-primary" data-original-title="" title="" aria-describedby="tooltip39799" style=""/>
+										<div class="s_features_grid_content">
+											<h4 class="o_default_snippet_text">
+												Restaurants And Cafes
+											</h4>
+											<p class="o_default_snippet_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+      	
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

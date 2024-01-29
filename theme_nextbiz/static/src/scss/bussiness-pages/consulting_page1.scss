@@ -1,0 +1,505 @@
+@mixin transition-box{
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.consult_pages{
+    .font-large{
+        font-size: large;
+    }
+    .title{
+        color: theme-color('primary');
+    }
+    .subtitle{
+        color: #686777;
+        line-height: 30px !important;
+    }
+    p{
+        color: #686777;
+    }
+}
+.consult-one-banner{
+    padding: 240px 0;
+    @media (max-width: 767.98px){
+        padding-top: 120px !important;
+        padding-bottom: 64px !important;
+    }
+    .play_btn{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            line-height: 1;
+            padding: 45px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 2px solid rgba(255, 255, 255,0.2); 
+            animation: mymove 5s infinite;
+            color: #ffffff;
+            @include transition-box;
+            &:hover{
+                background-color:#ffffff;
+                color: theme-color('primary');
+            }
+        }
+        
+    }
+    @keyframes mymove {
+        50% {border: 20px solid rgba(255, 255, 255,0.2); }
+      }
+}
+.consult-one-features{
+    transform: translateY(-100px);
+    .border_with_radius{
+        border-radius: 10px;
+        overflow: hidden;
+        > *{
+            position: relative;
+            &::before{
+                content: '';
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 1px;
+                height: 100%;
+                z-index: 1;
+                background-color:#ad40fc ;
+            }
+            &:last-child{
+               &::before{
+                   display: none;
+               }
+            }
+        }
+    }
+    .feature_content{
+        position: relative;
+       
+        .feature_detail{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            z-index: 2;
+            transition: all .3s ease-out 0s;
+            .forward_btn{
+                display: none;
+            }
+        }
+        .overlay_box{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: linear-gradient(-180deg,#dd24ff,#841ff9);
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+            transition: 0.3s;
+        }
+        &:hover{
+            .feature_detail{
+                transform: translateY(-75%);
+                .forward_btn{
+                    display: block;
+                }
+            }
+            .overlay_box{
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+    }
+    
+    @media (max-width: 767px){
+        transform: translateY(0);
+        padding: 64px 0;
+    }
+}
+.editor_enable{
+    .consult-one-features{
+        .feature_content{
+            .overlay_box{
+                top: 50% !important;
+                opacity: 1 !important;
+            }
+            .forward_btn{
+                display: block !important;
+            }
+            &:hover{
+                .feature_detail{
+                    transform: translateY(-50%) !important;
+                    
+                }
+                .overlay_box{
+                    visibility: visible !important;
+                }
+            }
+        }
+    }
+}
+.consult-one-about{
+    padding: 24px 0 120px 0;
+    @media (max-width: 767px){
+        padding:0 0 64px 0;
+    }
+    .about_ul{
+        display: flex;
+        flex-flow: row wrap;
+        section{
+            width: 50%;
+            @include transition-box;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: baseline;
+            word-break: break-all;
+            .about_list{
+                display: flex;
+                align-items: center;
+                width: unset;
+                &::before{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: fit-content;
+                    height: fit-content;
+                    line-height: 1;
+                    padding: 2px;
+                    color: theme-color('primary');
+                    background-color: #ecebff;
+                    border-radius: 50%;
+                    margin-right: 8px;
+                }
+                
+                @include transition-box;
+            }
+            &:hover{
+                color: theme-color('primary');
+                .about_list{
+                    &::before{
+                        background-color: theme-color('primary');
+                        color: #ffffff;
+                    }
+                   
+                }
+            }
+        }
+    }
+    
+}
+.editor_enable{
+    .consult-one-about{
+        .left_shape{
+            
+            z-index: 0;
+        }
+    } 
+}
+.consult-one-strrtagy{
+    position: relative;
+    background-color: #1b133f;
+    .strrtagy_content{
+        padding: 240px 0;
+        @media (max-width: 1199.98px){
+            padding:120px 0;
+        }
+        @media (max-width: 767px){
+            padding:64px 0;
+        }
+    }
+    .strrtagy_list{
+        li{
+            margin-bottom: 24px;
+            color: #777689;
+            @include transition-box;
+            &:hover{
+                color: #fff;
+            }
+
+        }
+    }
+   .right_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+   }
+}
+.consult-one-services{
+    padding: 120px 0 80px 0;
+    @media (max-width: 767px){
+        padding: 64px 0;
+    }
+    .service_icon{
+        @include transition-box;
+        &:hover{
+            transform: translateY(-10px);
+        }
+    }
+    .service_btn{
+        @include transition-box;
+        color: unset;
+        &:hover{
+            color:theme-color('primary');
+        }
+    }
+}
+.consult-one-counters{
+    padding-bottom: 120px;
+    @media (max-width: 767px){
+        padding-bottom: 64px;
+    }
+    .counter_box{
+        border-radius: 15px;
+        box-shadow: 0 40px 80px 0 rgba(43, 2, 89 , 0.1);
+    }
+}
+.consult-one-team{
+    background-color: #f3f2f8;
+    padding:0 0 120px 0;
+    @media (max-width: 767px){
+        padding: 64px 0;
+    }
+    .team_content{
+        background-color: #423d7c;
+        border-radius: 20px;
+        position: relative;
+        @include transition-box;
+        .overlay-bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            border-radius: 20px;
+            background-image: linear-gradient(-180deg,#dd24ff,#841ff9);
+            opacity: 0;
+            z-index: -1;
+            @include transition-box;
+        }
+        .overlay-detail{
+            position: absolute;
+            top: 0;
+            left: 30px;
+            opacity: 0;
+            @include transition-box;
+        }
+        .overlay-icons{
+            position: absolute;
+            bottom: 0;
+            left: 30px;
+            opacity: 0;
+            @include transition-box;
+            i{
+                line-height: 1;
+                padding: 20px;
+                background-color: #7b23de;
+                color: #ffffff;
+                border-radius: 6px;
+                @include transition-box;
+                &:hover{
+                    color: #7b23de;
+                    background-color: #ffffff;
+                }
+            }
+        }
+        &:hover{
+            .overlay-bg{
+                z-index: 1;
+                opacity: 1;
+            }
+            .overlay-detail{
+                transform: translateY(20px);
+                z-index: 2;
+                opacity: 1;
+            }
+            .overlay-icons{
+                transform: translateY(-20px);
+                z-index: 2;
+                opacity: 1;
+            }
+        }
+    }
+}
+.editor_enable{
+    .consult-one-team{
+        margin-bottom: 500px !important;
+        .team_content{
+            .overlay-bg{
+                top: 100% !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                height: 100% !important;
+                z-index: 1;
+            }
+            .overlay-detail{
+                top: 100% !important;
+                transform: translateY(20px) !important;
+                opacity: 1 !important;
+                z-index: 1;
+            }
+            .overlay-icons{
+                transform: translateY(-20px) !important;
+                bottom: -100% !important;
+                opacity: 1 !important;
+                z-index: 1; 
+            }
+           
+        }
+    }
+}
+.consult-one-work{
+    padding:240px 0;
+    @media (max-width: 767px){
+        padding: 120px 0;
+    }
+}
+.consult-one-pricing{
+    padding:120px 0;
+    @media (max-width: 767px){
+        padding: 64px 0;
+    }
+    .offer{
+        margin: 0 0 40px 120px;
+        position: relative;
+        background: #e9f7e6;
+        border-radius: 12px;
+        color: #25ad0a;
+        img{
+            position: absolute;
+            right: 70%;
+            top: 75%;
+        }
+    }
+    .s_tabs_nav{
+        .nav-pills{
+            width: fit-content;
+            background-color: #f4f5fd;
+            padding: 5px;
+            border-radius: 6px;
+            .nav-item{
+                margin-right: 14px;
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+
+            .nav-link{
+                border-radius: 6px;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 1;
+            }
+            
+            .nav-link.active{
+                background: #fff;
+                box-shadow: 0 2px 6px 0 rgba(11 ,0 ,65 , 0.06);
+                color: theme-color('primary');
+            }
+            .nav-link:not(.active){
+                background-color: transparent;
+                box-shadow: 0 2px 6px 0 rgba(11 ,0 ,65 , 0.06);
+                color: #490ebe;
+            }
+        }
+        
+    }
+    .s_tabs_content{
+        .consult_pricing_content{
+            border: 2px solid theme-color('primary');
+            border-radius: 10px;
+            padding: 60px 60px 50px;
+            @include transition-box;
+            li{
+                margin-bottom: 15px;
+                color: #87878b;
+            }
+        }
+        .consult_pricing_content:not(.active){
+            .btn{
+                border-color: theme-color('primary');
+                color: #fff;
+                background-color:theme-color('primary') ;
+                @include transition-box;
+               
+            }
+            &:hover{
+                .btn{
+                    border-color: #fff;
+                    color: #000;
+                    background-color:#fff ;
+                }               
+            }
+        }
+        .consult_pricing_content.active,.consult_pricing_content:hover{
+            background-color: #490ebe;
+            color: #ffffff;
+            h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+                color: #ffffff !important;
+            }
+            li{
+                color: #ffffff;
+            }
+        }
+    }
+}
+.consult-one-contact{
+    min-height: 750px !important;
+    margin-top: 80px;
+    @media (max-width: 767px){
+        min-height: 1050px !important;
+        margin-top: 16px;
+    }
+    .contact_content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 65px;
+        @media (max-width: 767px){
+            padding: 15px;
+        } 
+        .contact__info{
+            a{
+                color: unset !important;
+                @include transition-box;
+                &:hover{
+                    color: theme-color('primary');
+                }
+            }
+        }
+        .s_website_form{
+            .form-group{
+                .form-control:not(textarea){
+                    background-color: #f5f5f5 !important;
+                    height: 50px;
+                    border: unset;
+                    border-radius: 10px;
+
+                    &::placeholder {
+                        font-size: 14px !important;
+                    }
+                    &:focus{
+                        border: 2px solid theme-color('primary') !important;
+                        box-shadow: unset !important;
+                    }
+                }
+                textarea{
+                    background-color: #f5f5f5;
+                    border: unset;
+                    border-radius: 10px;
+                    &::placeholder {
+                        font-size: 14px !important;
+                        margin-top: 4px !important;
+                    }
+                    &:focus{
+                        border: 2px solid theme-color('primary') !important;
+                        box-shadow: unset !important;
+                    }
+                }
+            }
+        }
+    }
+}

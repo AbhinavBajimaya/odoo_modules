@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="s_consult_page1_feature" name="Consult One Feature">
+        <section class="consult_pages">
+            <section class="consult-one-features">
+                <div class="container">
+                    <div class="row no-gutters border_with_radius">
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-book fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Management Reporting</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-heart-pulse fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Life &amp; Health Insurance</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-home fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Home  Insurance</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-bus fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Travel  Insurance</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-lock fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Security  Guarantee</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <section class="feature_content oe_img_bg o_bg_img_center" style="background-image:url(&quot;/theme_nextbiz/static/src/img/consultpage1_feature1.jpg&quot;);min-height:300px;">
+                                                <div class="o_we_bg_filter" style="background-color: rgba(11, 3, 133, 0.8) !important;"></div>
+                                                <div class="text-center feature_detail px-2 w-100">
+                                                    <i class="lnr lnr-dice fa-2x text-white"/>
+                                                    <h5 class="text-white my-3 font-weight-bold">Our  Working Process</h5>
+                                                    <a href="#" class="forward_btn">
+                                                        <i class="fa fa-long-arrow-right text-white"/>
+                                                    </a>
+                                                </div>
+                                                <section class="overlay_box"/>
+                                            </section>
+                                        </div>
+                                    </div>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

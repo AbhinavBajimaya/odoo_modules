@@ -1,0 +1,341 @@
+/* mega menu alignment */
+#vouge-header10 {
+	/* mega menu alignment end */
+}
+ #vouge-header10 .middle-header .row.align-items-center {
+	 position: relative;
+}
+ #vouge-header10 .middle-header .row.align-items-center .header-center {
+	 position: unset;
+}
+ #vouge-header10 .middle-header .row.align-items-center .header-center #bizople-header-ten {
+	 position: unset;
+}
+ #vouge-header10 .middle-header .row.align-items-center .header-center #bizople-header-ten #top_menu .o_mega_menu {
+	 top: 50px;
+}
+ #vouge-header10 .middle-header .row.align-items-center .header-center #bizople-header-ten #top_menu .o_mega_menu a.nav-link {
+	 line-height: 30px;
+	 border: 0;
+}
+ #vouge-header10 .dropdown .dropdown-menu, #vouge-header10 .header-myaccount .dropdown-menu {
+	 border-radius: 0;
+}
+ #vouge-header10 #bizople-header-ten .dropdown .dropdown-menu {
+	 transition: 0.2s;
+	 -webkit-transition: 0.2s;
+	 margin-top: 35px;
+	 display: block !important;
+	 opacity: 0;
+	 visibility: hidden;
+	 width: fit-content;
+}
+ #vouge-header10 #bizople-header-ten .dropdown .dropdown-menu.show {
+	 margin-top: 0 !important;
+	 opacity: 1 !important;
+	 visibility: visible !important;
+}
+ #vouge-header10 #bizople-header-ten .dropdown:hover .dropdown-toggle:after {
+	 transform: rotate(180deg);
+}
+ @media (max-width: 1199.98px) {
+	 #vouge-header10 #bizople-header-ten .dropdown:hover .dropdown-toggle:after {
+		 transform: rotate(0);
+	}
+}
+ #vouge-header10 #bizople-header-ten .dropdown:hover .dropdown-menu {
+	 margin-top: 0;
+	 opacity: 1;
+	 visibility: visible;
+}
+ @media (max-width: 1199.98px) {
+	 #vouge-header10 #bizople-header-ten .dropdown:hover .dropdown-menu {
+		 margin-top: 35px;
+		 opacity: 0;
+		 visibility: hidden;
+	}
+}
+ #vouge-header10 .middle-header .dropdown-toggle:after {
+	 font-family: 'remixicon' !important;
+	 border: 0;
+	 font-size: 12px;
+	 vertical-align: middle;
+	 content: '\ea4c';
+	 transition: 0.2s;
+	 -webkit-transition: 0.2s;
+}
+ #vouge-header10 .middle-header .dropdown.show .dropdown-toggle:after, #vouge-header10 .middle-header .header-myaccount.show .dropdown-toggle:after {
+	 transform: rotate(180deg) !important;
+}
+ #vouge-header10 .o_extra_menu_items > .dropdown-toggle:after {
+	 display: none;
+}
+ #vouge-header10 .o_extra_menu_items > .dropdown-toggle > .fa {
+	 font-size: 12px;
+	 font-family: 'remixicon' !important;
+	 vertical-align: middle;
+	 transition: 0.2s;
+	 -webkit-transition: 0.2s;
+}
+ #vouge-header10 .o_extra_menu_items > .dropdown-toggle > .fa:before {
+	 content: "\ea4c";
+	 margin: 0.255em;
+}
+ #vouge-header10 .o_extra_menu_items .dropdown-toggle:hover .fa {
+	 transform: rotate(180deg);
+}
+ #vouge-header10 .o_extra_menu_items.show .dropdown-toggle .fa {
+	 transform: rotate(180deg) !important;
+}
+ #vouge-header10 .top-header {
+	 background-color: theme-color('secondary');
+	 line-height: 44px;
+}
+ #vouge-header10 .top-header .contact-time p {
+	 font-size: 14px;
+	 line-height: 1.7;
+}
+ #vouge-header10 .top-header .contact-time p .fa {
+	 font-size: 17px;
+}
+ #vouge-header10 .top-header .header-media {
+	 align-items: center;
+	 display: flex;
+	 justify-content: end;
+	/* @include media-breakpoint-between(lg, xl) {
+		 a.link{
+			 height: 25px;
+			 width: 25px;
+			 line-height: 25px;
+		}
+	}
+	 */
+}
+ #vouge-header10 .top-header .header-media a.link {
+	 height: 30px;
+	 width: 30px;
+	 display: inline-block;
+	 line-height: 30px;
+	 text-align: center;
+	 font-size: 16px;
+	 color: #5a5a5a;
+	 position: relative;
+	 z-index: 1;
+}
+ #vouge-header10 .top-header .header-media li.nav-item {
+	 list-style-type: none;
+}
+ #vouge-header10 .top-header .header-media a.dropdown-toggle {
+	 padding: 0 !important;
+}
+ #vouge-header10 .top-header .header-media a.dropdown-toggle .user_img {
+	 width: 30px;
+	 height: 30px;
+	 display: inline-block;
+	 margin-top: 0 !important;
+	 margin-left: 5px;
+	 padding: unset !important;
+}
+ #vouge-header10 .top-header .header-media a.dropdown-toggle:before {
+	 display: none !important;
+	 transform-origin: unset !important;
+	 transform: unset !important;
+}
+ #vouge-header10 .top-header .header-media a.dropdown-toggle:hover:before {
+	 transform-origin: unset !important;
+	 transform: unset !important;
+}
+ #vouge-header10 .top-header .header-media .dropdown .nav-link.dropdown-toggle {
+	 display: flex;
+	 align-items: center;
+}
+ #vouge-header10 .top-header .header-media .dropdown .nav-link.dropdown-toggle:after {
+	 content: "\f107" !important;
+	 font-family: 'FontAwesome';
+	 vertical-align: middle;
+	 border: 0 !important;
+}
+ #vouge-header10 .top-header .header-language .btn {
+	 padding: 0 20px;
+	 font-size: 14px;
+	 line-height: 44px;
+	 text-transform: capitalize;
+	 border-radius: 0;
+	 position: relative;
+	 box-shadow: unset;
+}
+ #vouge-header10 .top-header .header-language .btn span {
+	 text-transform: capitalize !important;
+}
+ #vouge-header10 .top-header .header-language .btn:after {
+	 content: "\ea4c";
+	 margin: 0 !important;
+	 border: 0 !important;
+	 font-family: 'remixicon' !important;
+	 vertical-align: middle;
+	 transition: 0.2s;
+	 -webkit-transition: 0.2s;
+}
+ #vouge-header10 .top-header .header-language .dropdown.show > .btn:after {
+	 transform: rotate(180deg) !important;
+}
+ #vouge-header10 .top-header .header-language .dropdown.show > .dropdown-menu {
+	 transform: unset !important;
+	 margin: 0;
+	 top: unset !important;
+	 background-color: theme-color('primary');
+	 border-color: theme-color('primary');
+	 color: #fff;
+	 width: 100%;
+	 min-width: unset;
+}
+ #vouge-header10 .top-header .header-language .dropdown.show > .dropdown-menu a {
+	 color: #fff;
+	 background-color: theme-color('primary') !important;
+	 border: 1px solid theme-color('primary') !important;
+	 transition: 0.2s;
+	 border-radius: 0;
+	 padding: 10px 20px;
+	 width: fit-content;
+	 line-height: 20px;
+}
+ #vouge-header10 .top-header .header-language .dropdown.show > .dropdown-menu a:hover {
+	 border-bottom: 1px solid #fff !important;
+}
+ #vouge-header10 .middle-header {
+	 padding: 10px 0;
+	 background-color: transparent;
+}
+ #vouge-header10 .middle-header .header-left .navbar-brand {
+	 vertical-align: middle;
+	 line-height: 75px;
+}
+ #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn {
+	 padding: 0;
+	 width: 30px;
+	 height: 30px;
+	 border-radius: 0;
+	 background-color: transparent !important;
+	 color: #1b1b1b;
+	 border-color: #1b1b1b;
+	 line-height: 37px;
+	 border: 0;
+}
+ #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .fa, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .icon, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .icofont, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .lnr, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .lni, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .ri, #vouge-header10 .middle-header .header-left .mobile-sidebar-toggle .btn .ti {
+	 font-size: 22px;
+}
+ #vouge-header10 .middle-header .header-left .mobile-cart a.nav-link {
+	 padding: 0;
+	 position: relative;
+}
+ #vouge-header10 .middle-header .header-left .mobile-cart a.nav-link .icon {
+	 font-size: 20px;
+}
+ #vouge-header10 .middle-header .header-left .mobile-cart a.nav-link sup {
+	 position: absolute;
+	 top: -10px;
+	 right: -10px;
+	 width: 20px;
+	 height: 20px;
+	 line-height: 20px;
+	 font-size: 11px;
+	 border-radius: 50%;
+	 padding: 0;
+}
+ #vouge-header10 .middle-header .header-center #top_menu .nav-item > a.nav-link {
+	 text-transform: capitalize;
+	 letter-spacing: 0.2px;
+	 font-weight: 500;
+	 font-style: normal;
+	 font-size: 16px;
+	 line-height: 50px;
+	 padding: 0 25px;
+	 color: #1b1b1b;
+	 position: relative;
+}
+ #vouge-header10 .middle-header .header-center #top_menu li.nav-item:first-child a.nav-link {
+	 padding-left: 0;
+}
+ #vouge-header10 .middle-header .header-center #top_menu .nav-item > dropdown-menu {
+	 border-radius: 0;
+}
+ #vouge-header10 .middle-header .header-center #top_menu li.o_extra_menu_items > .nav-link {
+	 padding: 0;
+}
+ #vouge-header10 .middle-header .header-center #top_menu li.o_extra_menu_items .dropdown-menu-right {
+	 left: 0 !important;
+	 width: fit-content;
+	 background-clip: unset;
+}
+ #vouge-header10 .middle-header .header-center #top_menu li.o_extra_menu_items > .dropdown-menu {
+	 background-clip: unset;
+	 width: fit-content;
+}
+ #vouge-header10 .middle-header .header-center #top_menu li.o_extra_menu_items > .dropdown-menu > li {
+	 border: 0 !important;
+}
+ #vouge-header10 .middle-header .header-right a.nav-link {
+	 font-size: 16px;
+	 position: relative;
+}
+ #vouge-header10 .middle-header .header-right a.nav-link sup {
+	 position: absolute;
+	 top: -4px;
+	 right: 0;
+	 width: 20px;
+	 height: 20px;
+	 line-height: 20px;
+	 font-size: 11px;
+	 border-radius: 50%;
+	 padding: 0;
+}
+ #vouge-header10 .middle-header .header-right .acc-dropdown:after {
+	 margin: 0;
+}
+ #vouge-header10 .middle-header .header-right .header-myaccount {
+	 position: relative;
+}
+ #vouge-header10 .middle-header .header-right .header-myaccount .js_usermenu {
+	 top: 18px !important;
+	 left: 0px !important;
+	 transform: translate3d(0px, 26px, 0px) !important;
+}
+ #vouge-header10 .middle-header .header-right .header-myaccount .js_usermenu:before {
+	 content: '';
+	 position: absolute;
+	 left: unset;
+	 top: -8px;
+	 right: 20px;
+	 border-left: 8px solid transparent;
+	 border-right: 8px solid transparent;
+	 border-bottom: 8px solid #e5e5e5;
+	 z-index: 100;
+}
+ #vouge-header10 .middle-header .header-right .header-myaccount a.dropdown-toggle::after {
+	 position: absolute;
+	 top: 7px;
+	 right: 0;
+	 line-height: 30px;
+}
+ #vouge-header10 .middle-header .header-right .header-myaccount .user_img {
+	 margin: 0;
+	 padding: 0;
+}
+ @media (max-width: 767.98px) {
+	 #vouge-header10 .middle-header {
+		 box-shadow: 0px 0px 3px #757575;
+		 z-index: 1;
+		 position: relative;
+	}
+	 #vouge-header10 .middle-header .mbl-div {
+		 justify-content: space-between;
+		 align-items: center;
+	}
+}
+ @media (max-width: 767.98px) {
+	 .o_header_overlay #vouge-header10 {
+		 position: unset !important;
+		 z-index: unset !important;
+	}
+}
+ 

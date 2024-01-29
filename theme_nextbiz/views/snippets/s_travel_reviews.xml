@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_travel_reviews" name="Traveler Reviews">
+		<section class="travel-reviews" style="background-image: url('/theme_nextbiz/static/src/img/travel-testimonial-bg.jpg');">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-8 col-md-10">
+						<div class="heading">
+							<span>Our Top</span>
+							<h1>Traveler Reviews</h1>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo ligula eget dolor. Aenean massa. Cum sociis the</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Travelreviewscarousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#Travelreviewscarousel2"></li>
+            <li data-slide-to="1" data-target="#Travelreviewscarousel2" class=""></li>
+            <li data-slide-to="2" data-target="#Travelreviewscarousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team3.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team4.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team2.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team3.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team4.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <section class="client-content">
+                            <div class="image">
+                                <img class="img img-fluid" src="/theme_nextbiz/static/src/img/vouge-team1.png" />
+                            </div>
+                            <div class="client-info">
+                                <h4>Maldives</h4>
+                                <div class="s_rating" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating">
+                                    <div class="s_rating_icons o_not_editable">
+                                        <span class="s_rating_active_icons" style="color: #419183 !important;">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </span>
+                                        <span class="s_rating_inactive_icons text-o-color-2">
+                                        </span>
+                                    </div>
+                                </div>
+                                <p>Vivamus ut ullamcorper diam. Vestibulum et elit lacus. Suspendisse metus nisi, iaculis sit amet risus et, aliquet volutpat elit.</p>
+                                <span>Paul Williams</span>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Travelreviewscarousel2">
+            <span class="carousel-control-prev-icon d-none"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Travelreviewscarousel2">
+            <span class="carousel-control-next-icon d-none"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+			</div>
+		</section>
+	</template>
+
+</odoo>

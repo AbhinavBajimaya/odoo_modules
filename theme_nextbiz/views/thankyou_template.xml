@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="thank_you_template" model="ir.ui.view">
+		<field name="name">Thank You Template</field>
+		<field name="type">qweb</field>
+		<field name="key">website.thank_you_template</field>
+		<field name="arch" type="xml">
+			<t name="Thank You Template" t-name="theme_nextbiz.thank_you_template">
+				<t t-call="website.layout">
+					<div class="oe_structure oe_empty" id="wrap">
+						<section class="thank-you-banner bg-primary pt120 pb120" style="">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-12">
+									<img class="img img-fluid" src="/theme_nextbiz/static/src/img/thankyou.png" />
+										<div class="content my-3">
+											<h3 class="text-center text-white">Your message has been sent successfully.</h3>
+											<p class="text-center text-white">We will get back to you shortly.</p>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</section>
+					</div>
+				</t>
+			</t>
+		</field>
+	</record>
+	<record id="thank_you_template_menu" model="website.page">
+		<field name="website_published">True</field>
+		<field name="url">/thank-you</field>
+		<field name="view_id" ref="thank_you_template" />
+	</record>
+</odoo>

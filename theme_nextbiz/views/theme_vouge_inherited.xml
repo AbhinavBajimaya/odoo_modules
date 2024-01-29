@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="snippet_options_inherited" inherit_id="website.snippet_options">
+		
+		<!-- Headers -->
+		<xpath expr="//we-select[@data-variable='header-template']" position="inside">
+            <we-button title="Vouge Header 1"
+                       data-name="vouge_header_one_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header_new1"
+                       data-customize-website-variable="'vouge-header-1'"
+                       data-img="/theme_nextbiz/static/description/header1.png"/>
+            <we-button title="Vouge Header 2"
+                       data-name="vouge_header_two_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header_new2"
+                       data-customize-website-variable="'vouge-header-2'"
+                       data-img="/theme_nextbiz/static/description/header2.png"/>
+            <we-button title="Vouge Header 3"
+                       data-name="vouge_header_three_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header_new3,website.no_autohide_menu"
+                       data-customize-website-variable="'sidebar'"
+                       data-img="/theme_nextbiz/static/description/header3.png"/>
+            <we-button title="Vouge Header 8"
+                       data-name="vouge_header_eight_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header8"
+                       data-customize-website-variable="'vouge-header-8'"
+                       data-img="/theme_nextbiz/static/description/header4.png"/>
+            <we-button title="Vouge Header 9"
+                       data-name="vouge_header_nine_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header9"
+                       data-customize-website-variable="'vouge-header-9'"
+                       data-img="/theme_nextbiz/static/description/header5.png"/>
+            <we-button title="Vouge Header 10"
+                       data-name="vouge_header_ten_opt"
+                       data-customize-website-views="theme_nextbiz.theme_nextbiz_header10"
+                       data-customize-website-variable="'vouge-header-10'"
+                       data-img="/theme_nextbiz/static/description/header6.png"/>
+        </xpath>
+		<xpath expr="//div[@data-js='HeaderNavbar']//we-select" position="replace">
+                <we-select string="Alignment"
+                    data-name="header_alignment_opt"
+                    data-variable="hamburger-position"
+                    data-reload="/">
+                <we-button data-customize-website-views="" data-customize-website-variable="'left'">Left</we-button>
+                <we-button data-customize-website-views="website.template_header_default_align_center, website.template_header_hamburger_align_center, website.template_header_slogan_align_center, theme_nextbiz.template_header_one_align_center,theme_nextbiz.template_header_two_align_center,theme_nextbiz.template_header_three_align_center,theme_nextbiz.template_header_four_align_center,theme_nextbiz.template_header_five_align_center,theme_nextbiz.template_header_six_align_center" data-customize-website-variable="'center'">Center</we-button>
+                <we-button data-customize-website-views="website.template_header_default_align_right, website.template_header_hamburger_align_right, website.template_header_slogan_align_right, theme_nextbiz.template_header_one_align_right,theme_nextbiz.template_header_two_align_right,theme_nextbiz.template_header_three_align_right,theme_nextbiz.template_header_four_align_right,theme_nextbiz.template_header_five_align_right,theme_nextbiz.template_header_six_align_right" data-customize-website-variable="'right'">Right</we-button>
+            </we-select>
+        </xpath>
+
+    <xpath expr="//we-select[@data-variable='header-template']" position="after">
+      <we-input string="⌙ Width"
+                  data-dependencies="vouge_header_three_opt"
+                  data-customize-website-variable="null"
+                  data-variable="sidebar-width"
+                  data-unit="px"
+                  data-save-unit="rem"/>
+    </xpath>
+	<xpath expr="//div[@data-js='topMenuColor']" position="inside">
+		<we-colorpicker string="⌙ Text"
+            data-customize-website-color="" 
+			data-color-type="theme" 
+			data-color="overlay-header-text-color"
+            data-css-property="color"
+            data-color-prefix="text-"
+            />
+	</xpath>
+
+
+		<!-- Footers -->
+		<xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+		
+            <we-button title="Vouge Footer 1"
+                       data-name="vouge_footer_one_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer1"
+                       data-customize-website-variable="'vouge-footer-1'"
+                       data-img="/theme_nextbiz/static/description/footer1.png"/>
+            <we-button title="Vouge Footer 2"
+                       data-name="vouge_footer_two_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer2"
+                       data-customize-website-variable="'vouge-footer-2'"
+                       data-img="/theme_nextbiz/static/description/footer2.png"/>
+            <we-button title="Vouge Footer 3"
+                       data-name="vouge_footer_three_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer3"
+                       data-customize-website-variable="'vouge-footer-3'"
+                       data-img="/theme_nextbiz/static/description/footer3.png"/>
+            <we-button title="Vouge Footer 4"
+                       data-name="vouge_footer_four_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer4"
+                       data-customize-website-variable="'vouge-footer-4'"
+                       data-img="/theme_nextbiz/static/description/footer4.png"/>
+            <we-button title="Vouge Footer 5"
+                       data-name="vouge_footer_five_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer5"
+                       data-customize-website-variable="'vouge-footer-5'"
+                       data-img="/theme_nextbiz/static/description/footer5.png"/>
+            <we-button title="Vouge Footer 6"
+                       data-name="vouge_footer_six_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer6"
+                       data-customize-website-variable="'vouge-footer-6'"
+                       data-img="/theme_nextbiz/static/description/footer6.png"/>
+            <we-button title="Vouge Footer 7"
+                       data-name="vouge_footer_eight_opt"
+                       data-customize-website-views="theme_nextbiz.theme_common_footer8"
+                       data-customize-website-variable="'vouge-footer-8'"
+                       data-img="/theme_nextbiz/static/description/footer8.png"/>
+		</xpath>
+
+		
+		
+	</template>
+
+	<!-- Snippets -->
+	<template id="theme_nextbiz_snippets"
+		inherit_id="website.snippets">
+		<xpath expr="//div[@id='snippet_structure']" position="after">
+			<div id="snippet_menu" class="o_panel">
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Business Homepages
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_charity_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_contactus_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_aboutus_snippet"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Charity
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_charity_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_mission"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_campaigns"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_help"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_newsletter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_charity_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					IT Solution
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_it_solution_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_service"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_software"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_work"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_case_studies"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_pricing_plan"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_clients"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_brands"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_it_solution_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Creative Agency
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_creative_agency_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_service"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_projects"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_rewards"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_spain"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_creative_agency_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					App Landing One
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_app_landing_one_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_about"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_reporting"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_why_choose"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_work"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_screenshots"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_pricing_plan"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_download"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_one_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					App Landing Two
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_app_landing_two_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_reviews"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_video_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_conversions"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_steps"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_productivity"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_text"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_pricing_plan"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_questions"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_community"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_design"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_teams"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_app_landing_two_newsletter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Snowboard &amp; Ski
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_welcome"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_skating"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_accessories"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_parallax"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_products"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_certified"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_best_skiz"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_newsletter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_snowboard_ski_brands"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Medical
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_medical_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_service"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_care"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_prevent"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_durability"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_parallax_protection"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_protection"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_supplies"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_products"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_about_products"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_medical_helpline"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Cyber Security
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_cyber_security_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_plateform"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_work"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_faq"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_cyber_security_clients"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Real Estate
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_real_estate_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_text"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_properties"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_real_estate_clients"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Travel
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_travel_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_holidays"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_image"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_discover"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_countries"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_reviews"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_destination"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_travel_bags"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Yoga
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_yoga_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_motivation"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_classes"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_styles"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_trainers"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_brands"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_newsletter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_yoga_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					SEO
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_seo_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_teams"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_newsletter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_marketing"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_seo_pricing_plan"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Hotel
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_hotel_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_rooms"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_welcome"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_reviews"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_hotel_address"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece" />
+					Dessert
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_dessert_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_offers"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_product_menu"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+						<t t-snippet="theme_nextbiz.s_dessert_product_menu_two"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_testimonials"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_founder"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_dessert_images"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Corpo Company
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_corpo_company_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_advantages"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_services_with_bgimage"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_counter_with_bgimage"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_clients_with_heading"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_pricing"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_contactus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_company_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Corpo Home
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_corpo_home_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_features"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_values"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_projects"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_profits"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_home_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Corpo Transport
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_corpo_transport_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_speciality"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_call_to_action"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_services_with_bgcolor"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_transport_clients_without_heading"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Corpo Construction
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_corpo_construction_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_projects"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_chooseus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_quality"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_owner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_construction_clients_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Corpo Medical
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_corpo_medical_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_work"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_aboutus"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_departments"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_appointment"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_teams"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_corpo_medical_testimonial"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+				</div>
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Consult Page One
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_consult_page1_about"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_brand"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_contact"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_feature"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_pricing"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_service"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_strategy"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_team"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page1_work"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					
+				</div>
+
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Consult Page Two
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_consult_page2_achivement"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_casestudy"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_counter"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_design"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_faq"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_success"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page2_tab"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					
+				</div>
+
+				<div class="o_panel_header">
+					<i class="fa fa-puzzle-piece"/>
+					Consult Page Three
+				</div>
+				<div class="o_panel_body">
+					<t t-snippet="theme_nextbiz.s_consult_page3_about"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_banner"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_faq"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_prepared"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_profit"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_services"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					<t t-snippet="theme_nextbiz.s_consult_page3_success"
+						t-thumbnail="/theme_nextbiz/static/description/icon-2.png" />
+					
+				</div>
+			</div>
+		</xpath>
+	</template>
+
+	<template id="button_style_options" inherit_id="website.snippet_options">
+		<xpath expr="//we-select[@data-variable='btn-secondary-outline']" position="after">
+	     	<div data-selector=".btn"
+		        data-exclude=".btn-link">
+		        <we-select string="Buttons Options" data-variable="btn-options">
+            		<we-button data-select-class="default_style">Default Style</we-button>
+                 	<we-button data-select-class="bizople_button_1">Bizople Button 1</we-button>
+	                <we-button data-select-class="bizople_button_2">Bizople Button 2</we-button>
+	                <we-button data-select-class="bizople_button_3">Bizople Button 3</we-button>
+	                <we-button data-select-class="bizople_button_4">Bizople Button 4</we-button>
+	                <we-button data-select-class="bizople_button_5">Bizople Button 5</we-button>
+	                <we-button data-select-class="bizople_button_6">Bizople Button 6</we-button>
+	                <we-button data-select-class="bizople_button_7">Bizople Button 7</we-button>
+	                <we-button data-select-class="bizople_button_8">Bizople Button 8</we-button>
+	                <we-button data-select-class="bizople_button_9">Bizople Button 9</we-button>
+	                <we-button data-select-class="bizople_button_10">Bizople Button 10</we-button>
+	                <we-button data-select-class="bizople_button_11">Bizople Button 11</we-button>
+	                <we-button data-select-class="bizople_button_12">Bizople Button 12</we-button>
+		        </we-select>
+		    </div>
+		</xpath>
+		<!-- <xpath expr="//div[@data-selector='#wrapwrap > header nav.navbar .navbar-brand img']" position="attributes">
+			<attribute name="data-selector">#wrapwrap > header .navbar-brand img</attribute>
+		</xpath> -->
+	</template>
+
+	<template id="icon_selector_inherit" inherit_id="web_editor.snippet_options">
+		<xpath expr="//div[@data-js='ReplaceMedia']" position="attributes">
+			<attribute name="data-selector">img, .media_iframe_video, span.fa, i.fa, .lnr, .icon, .icofont, .lni, .ri, .ti</attribute>
+		</xpath>
+
+		<xpath expr="//div[@data-js='FontawesomeTools']" position="attributes">
+			<attribute name="data-selector">span.fa, i.fa, .lnr, .icon, .icofont, .lni, .ri, .ti</attribute>
+		</xpath>
+		
+		<xpath expr="//div[@data-selector='span.fa, i.fa, img']" position="attributes">
+			<attribute name="data-selector">span.fa, i.fa, img, .lnr, .icon, .icofont, .lni, .ri, .ti</attribute>
+		</xpath>
+	</template>
+
+</odoo>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="s_medical_prevent" name="Right Equipments">
+		<section class="business-medical-prevent">
+			<div class="container-fluid">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-md-8">
+						<div class="heading">
+							<h2>Prevent The Spread Of Virus</h2>
+							<p>EXPLORE AND FIND RIGHT EQUIPMENTS</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center m-0">
+					<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-pause="hover" data-interval="7000" id="Medicalpreventcarousel2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay remove_indicator">
+            <li data-slide-to="0" class="active" data-target="#Medicalpreventcarousel2"></li>
+            <li data-slide-to="1" data-target="#Medicalpreventcarousel2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center op-1">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent2.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent3.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent4.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 p-0 mb24">
+                            <div class="text-center">
+                                <div class="service-img op-1">
+                                    <img src="/theme_nextbiz/static/src/img/medical-prevent1.jpg" class="img img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Medicalpreventcarousel2">
+            <span class="fa fa-angle-left"/>
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Medicalpreventcarousel2">
+            <span class="fa fa-angle-right"/>
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+				</div>
+			</div>
+		</section>
+	</template>
+
+</odoo>

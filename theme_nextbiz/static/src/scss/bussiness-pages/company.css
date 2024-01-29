@@ -1,0 +1,438 @@
+.one-side-heading-line {
+	position: relative;
+	color: theme-color('primary');
+	letter-spacing: 2px;
+	font-weight: 600;
+	display: inline-block;
+}
+.one-side-heading-line:after {
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	content: " ";
+	background-color: #ddd;
+	top: 50%;
+	margin-left: 10px;
+	left: 100%;
+}
+.one-side-heading-line.two-line:before {
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	content: " ";
+	background-color: #ddd;
+	top: 50%;
+	margin-right: 10px;
+	right: 100%;
+}
+.transform-50-up {
+	transform: translateY(-50%);
+}
+.cursor-pointer {
+	cursor: pointer;
+}
+.corpo_company_banner .carousel-control-next, .corpo_transport_banner .carousel-control-next, .corpo_construct_banner .carousel-control-next, .corpo_medical_banner .carousel-control-next {
+	right: 10px;
+}
+.corpo_company_banner .carousel-control-prev, .corpo_transport_banner .carousel-control-prev, .corpo_construct_banner .carousel-control-prev, .corpo_medical_banner .carousel-control-prev {
+	left: 10px;
+}
+.corpo_banner_features_section .feature-box, .transport_banner_features_section .feature-box {
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_banner_features_section .feature-box:hover, .transport_banner_features_section .feature-box:hover {
+	background-color: theme-color('primary') !important;
+}
+.corpo_banner_features_section .feature-box:hover div, .transport_banner_features_section .feature-box:hover div, .corpo_banner_features_section .feature-box:hover h6, .transport_banner_features_section .feature-box:hover h6 {
+	color: #fff !important;
+}
+@media (max-width: 767.98px) {
+	.corpo_banner_features_section .feature-box .indi-content, .transport_banner_features_section .feature-box .indi-content {
+		padding-left: 20px;
+   }
+}
+.corpo_banner_features_section .feature-box .indi-content p, .transport_banner_features_section .feature-box .indi-content p {
+	font-weight: 600;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+}
+.corpo_banner_features_section .feature-box {
+	background-color: #f7f7f7;
+}
+.transport_banner_features_section .feature-box {
+	background-color: #efefef;
+}
+.corpo_comapany_services .carousel-indicators, .corpo_comapany_testimonial .carousel-indicators, .corpo_transport_services .carousel-indicators {
+	bottom: -15px;
+	left: 0;
+	width: fit-content;
+	margin: 0;
+}
+.corpo_comapany_services .carousel-indicators li, .corpo_comapany_testimonial .carousel-indicators li, .corpo_transport_services .carousel-indicators li {
+	background-color: theme-color('primary');
+	width: 10px !important;
+	height: 10px !important;
+	border: 0 !important;
+	border-radius: 100% !important;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_comapany_services .carousel-indicators li.active, .corpo_comapany_testimonial .carousel-indicators li.active, .corpo_transport_services .carousel-indicators li.active {
+	width: 20px !important;
+	border-radius: 10px !important;
+}
+.corpo_comapany_services .carousel-indicators li:hover, .corpo_comapany_testimonial .carousel-indicators li:hover, .corpo_transport_services .carousel-indicators li:hover {
+	background-color: theme-color('primary') !important;
+}
+.corpo_transport_testimonial .carousel-inner .testimonial-box img {
+	max-width: 70px;
+}
+.corpo_transport_testimonial .carousel-indicators {
+	bottom: -30px;
+	left: 0;
+	margin: 0;
+}
+.corpo_transport_testimonial .carousel-indicators li {
+	background-color: theme-color('primary');
+	width: 10px !important;
+	height: 10px !important;
+	border: 0 !important;
+	border-radius: 100% !important;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_transport_testimonial .carousel-indicators li.active {
+	width: 20px !important;
+	border-radius: 10px !important;
+}
+.corpo_transport_testimonial .carousel-indicators li:hover {
+	background-color: theme-color('primary') !important;
+}
+.corpo_comapany_testimonial .testimonial_carousel .carousel-item .testimonial_block .block_client {
+	padding-left: 60px;
+}
+.corpo_comapany_testimonial .testimonial_carousel .carousel-item .testimonial_block .block_client .left-line {
+	position: relative;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+}
+.corpo_comapany_testimonial .testimonial_carousel .carousel-item .testimonial_block .block_client .left-line:before {
+	position: absolute;
+	width: 50px;
+	height: 2px;
+	content: " ";
+	background-color: #ddd;
+	top: 50%;
+	margin-right: 10px;
+	right: 100%;
+}
+.corpo_construct_banner .carousel-control-prev > span:not(.o_default_snippet_text):before, .corpo_construct_banner .carousel-control-next > span:not(.o_default_snippet_text):before {
+	padding: 1rem !important;
+	width: 3rem;
+	height: 3rem;
+	background-color: #c9c9c9 bf;
+	border: 1px solid #fff;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_construct_banner .carousel-control-prev > span:not(.o_default_snippet_text):hover:before, .corpo_construct_banner .carousel-control-next > span:not(.o_default_snippet_text):hover:before {
+	background-color: theme-color('primary');
+}
+.corpo_construct_projects .project-images {
+	z-index: 10;
+}
+.corpo_construct_projects .project-images .images-block {
+	position: relative;
+}
+.corpo_construct_projects .project-images .images-block .image-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	z-index: 2;
+	align-items: center;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_construct_projects .project-images .images-block .image-content a {
+	margin-left: auto;
+}
+.corpo_construct_projects .project-images .images-block .image-content span {
+	opacity: 0;
+	visibility: hidden;
+}
+.corpo_construct_projects .project-images .images-block .overlay {
+	position: absolute;
+	background-color: #121212;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	pointer-events: none;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_construct_projects .project-images .images-block:hover .image-content span {
+	opacity: 1;
+	visibility: visible;
+}
+.corpo_construct_projects .project-images .images-block:hover .overlay {
+	background-color: theme-color('primary');
+	opacity: 0.8;
+}
+.corpo_medical_services {
+	background-color: #f6f6f6;
+	z-index: 10;
+}
+.corpo_medical_services .images-block {
+	position: relative;
+}
+.corpo_medical_services .images-block .image-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff;
+	z-index: 2;
+	align-items: center;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_services .images-block .image-content a {
+	margin-left: auto;
+}
+.corpo_medical_services .images-block .image-content span {
+	opacity: 0;
+	visibility: hidden;
+}
+.corpo_medical_services .images-block .overlay {
+	position: absolute;
+	background-color: #121212;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.3;
+	pointer-events: none;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_services .images-block:hover .image-content span {
+	opacity: 1;
+	visibility: visible;
+}
+.corpo_medical_services .images-block:hover .overlay {
+	background-color: theme-color('primary');
+	opacity: 0.8;
+}
+.corpo_medical_services .images-block {
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_services .images-block a {
+	position: unset !important;
+}
+.corpo_medical_services .images-block:hover {
+	transform: translateY(-20px);
+}
+.corpo_medical_services .images-block .image-content a {
+	color: #fff !important;
+	text-decoration: none;
+}
+.corpo_construction_owner_message {
+	z-index: 2;
+}
+.corpo_construction_clients {
+	background-color: #f6f6f6;
+}
+.corpo_construction_clients .clients-carousel .carousel-inner .carousel-content img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+.corpo_construction_clients .clients-carousel .carousel-control-prev, .corpo_construction_clients .clients-carousel .carousel-control-next {
+	bottom: -15%;
+}
+.corpo_construction_clients .clients-carousel .carousel-control-prev > span:not(.o_default_snippet_text):before, .corpo_construction_clients .clients-carousel .carousel-control-next > span:not(.o_default_snippet_text):before {
+	border-radius: 100%;
+}
+.corpo_construction_clients .clients-carousel .carousel-control-prev {
+	left: 25%;
+}
+.corpo_construction_clients .clients-carousel .carousel-control-next {
+	right: 25%;
+}
+.corpo_medical_about {
+	overflow: hidden;
+}
+.corpo_medical_department .department-box {
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_department .department-box:hover {
+	background-color: theme-color('primary') !important;
+	border-color: theme-color('primary') !important;
+}
+.corpo_medical_department .department-box:hover span, .corpo_medical_department .department-box:hover .box-title, .corpo_medical_department .department-box:hover p {
+	color: #fff !important;
+}
+.corpo_medical_appointment .s_website_form input.form-control::placeholder {
+	color: #fff !important;
+}
+.corpo_medical_doctors {
+	background-color: #f6f6f6;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box {
+	border-bottom: 4px solid theme-color('primary');
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box .image {
+	position: relative;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box .image .social-icons {
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box .image .social-icons a {
+	width: 40px;
+	height: 40px;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box .image .social-icons a span {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 35px;
+	border: 3px solid theme-color('primary');
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box .image .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box:hover .image .social-icons {
+	opacity: 1;
+	visibility: visible;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box:hover .image .social-icons a span {
+	transition: 0.3s ease-in-out;
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box:hover .image .social-icons a:hover span {
+	background-color: theme-color('primary');
+}
+.corpo_medical_doctors .s_carousel_wrapper .doctor-box:hover .image .overlay {
+	background-color: #181818;
+	opacity: 0.5;
+}
+.corpo_medical_clients .carousel-item .client-detail {
+	margin-top: -60px;
+}
+.corpo_medical_clients .carousel-item .client-detail img {
+	max-width: 120px;
+}
+.corpo_home_banner .carousel-indicators {
+	top: 50% !important;
+	transform: translateY(-50%);
+	right: 20px !important;
+	display: block !important;
+	left: unset !important;
+	margin: 0;
+	height: fit-content;
+}
+.corpo_home_banner .carousel-indicators li {
+	width: 10px !important;
+	height: 10px !important;
+	border: 0 !important;
+	border-radius: 100% !important;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_home_banner .carousel-indicators li.active {
+	height: 20px !important;
+	border-radius: 25px !important;
+	background-color: theme-color('primary');
+}
+.corpo_home_banner .carousel-indicators li:hover {
+	background-color: theme-color('primary') !important;
+}
+.corpo_home_about .left-image {
+	position: relative;
+}
+.corpo_home_about .left-image .play-btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.corpo_home_about .left-image .play-btn span {
+	background-color: #fff;
+	color: theme-color('primary');
+	padding: 50px;
+	border-radius: 50%;
+	line-height: 1;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+}
+.corpo_home_about .left-image .play-btn span:hover {
+	background-color: theme-color('primary');
+	color: #fff;
+}
+.corpo_home_cases .cases_carousel .carousel-indicators {
+	left: 50px;
+	right: unset;
+	bottom: 50px;
+}
+@media (max-width: 767.98px) {
+	.corpo_home_cases .cases_carousel .carousel-indicators {
+		bottom: unset !important;
+		top: 55%;
+   }
+}
+.corpo_home_cases .cases_carousel .carousel-indicators li {
+	width: 10px !important;
+	height: 10px !important;
+	border: 0 !important;
+	border-radius: 100% !important;
+}
+.corpo_home_cases .cases_carousel .carousel-indicators li.active {
+	width: 15px !important;
+	height: 15px !important;
+}
+.corpo_home_cases .cases_carousel .carousel-item {
+	position: relative;
+}
+.corpo_home_cases .cases_carousel .carousel-item .project-detail {
+	padding: 100px 80px 100px 50px;
+}
+.corpo_home_testimonial .home_testimonial_carousel .carousel-item .testimonial-box .clients-detail img {
+	max-width: 70px;
+}
+.corpo_home_testimonial .home_testimonial_carousel .carousel-indicators {
+	margin: 0;
+	bottom: -40px;
+}
+.corpo_home_testimonial .home_testimonial_carousel .carousel-indicators li {
+	height: 4px !important;
+}
+.corpo_home_testimonial .home_testimonial_carousel .carousel-indicators li.active {
+	background-color: theme-color('primary');
+}

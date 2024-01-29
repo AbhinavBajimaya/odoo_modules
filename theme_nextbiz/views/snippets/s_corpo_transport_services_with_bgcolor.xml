@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_transport_services_with_bgcolor" name="Services with Background Color">
+      	<div class="oe_structure"/>
+
+      	<section class="corpo_transport_services pt80 pb80">
+			<div class="container">
+				<div class="row mt48">
+					<div class="col-lg-12">
+						<section class="s_carousel_wrapper" data-vxml="001" data-snippet="s_carousel" data-name="Carousel">
+    <div class="s_carousel s_carousel_default carousel slide" data-interval="10000" id="Transportservices2" style="background-image: none;">
+        <ol class="carousel-indicators o_we_no_overlay">
+            <li data-slide-to="0" class="active" data-target="#Transportservices2"></li>
+            <li data-slide-to="1" data-target="#Transportservices2" class=""></li>
+            <li data-slide-to="2" data-target="#Transportservices2" class=""></li>
+        </ol>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="services-content">
+                    <p class="m-0 section-heading one-side-heading-line text-uppercase">SERVICES</p>
+                    <h3 class="mt-2">Special Services We Provide</h3>
+                    <p class="mt-4 mb-0">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="carousel-inner">
+                    <div class="carousel-item o_colored_level active" data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service1.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Warehouses
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service2.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Sea Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service3.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Air Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item o_colored_level " data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service4.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Road Shipping
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service5.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Multimodal Services
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service6.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Door to Door
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item o_colored_level " data-name="Slide">
+                        <div class="container">
+                            <div class="row content">
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service7.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Shipment Insurance
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 mt-3 mt-md-0">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service8.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Safe Storage
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <img class="img img-fluid" src="/theme_nextbiz/static/src/img/transport-service9.jpg" alt="service1"/>
+                                    <h5 class="mt-3">
+                                        <a href="#" class="text-decoration-none">
+																			Shipment Forwarding
+                                        </a>
+                                    </h5>
+                                    <p class="mt-3 mb-5">
+																		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="mt-auto mb-0">
+                                        <a class="text-decoration-none btn-link" href="#">
+                                            <span>Read More <span class="lnr lnr-arrow-right ml-2 align-middle"/>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev o_not_editable o_we_no_overlay" data-slide="prev" role="img" aria-label="Previous" title="Previous" href="#Transportservices2">
+            <span class="sr-only o_default_snippet_text">Previous</span>
+        </a>
+        <a class="carousel-control-next o_not_editable o_we_no_overlay" data-slide="next" role="img" aria-label="Next" title="Next" href="#Transportservices2">
+            <span class="sr-only o_default_snippet_text">Next</span>
+        </a>
+    </div>
+</section>
+					</div>
+				</div>
+			</div>
+		</section>
+      	
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+	<template id="theme_nextbiz_header8" inherit_id="website.layout" name="Header Eight" active="False">
+		<xpath expr="//header//nav" position="replace">
+			<!-- <t t-call="theme_nextbiz.search_popup"/> -->
+			<nav data-name="Navbar" id="vouge-header8" class="vouge-header8 navbar-light">
+				<section class="middle-header">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-3 d-flex d-md-block mbl-div header-left">
+								<div class="vouge-logo text-left">
+									<a href="/" class="navbar-brand logo m-0">
+							            <span t-field="website.logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name" class="default-logo"/>
+							            <span t-field="website.transparent_header_logo" t-options="{'widget': 'image'}" role="img" t-att-aria-label="'Logo of %s' % website.name" t-att-title="website.name" class="transparent-logo d-none"/>
+							        </a>
+								</div>
+								<div class="mobile-sidebar-toggle d-block d-md-none">
+									<button type="button" id="show-sidebar" class="btn btn-sm btn-dark d-block d-md-none">
+										<span class="ti ti-view-grid  fa-2x"></span>
+									</button>
+								</div>
+							</div>
+							<div class="col-md-7 d-none d-md-block header-center">
+								<nav class="navbar navbar-expand-md p-0" id="bizople-header-eight">
+									<div class="collapse navbar-collapse justify-content-center" id="header8-menuitem">
+										<ul class="nav navbar-nav" id="top_menu">
+											<t t-foreach="website.menu_id.child_id" t-as="submenu">
+												<t t-call="website.submenu">
+													<t t-set="item_class" t-value="'nav-item'" />
+													<t t-set="link_class" t-value="'nav-link'" />
+												</t>
+											</t>
+										</ul>
+										<!-- Sign In -->
+										<ul class="list-unstyled m-0">
+											<t t-call="portal.placeholder_user_sign_in">
+												<t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+												<t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+											</t>
+											<!-- User Dropdown -->
+											<t t-call="portal.user_dropdown">
+												<t t-set="_user_name" t-value="true"/>
+												<t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+												<t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+											</t>
+										</ul>
+										<t t-call="website.placeholder_header_language_selector">
+											<t t-set="_div_classes" t-value="'ml-2'"/>
+										</t>
+									</div>
+								</nav>
+							</div>
+							<div class="col-md-2 p-0 d-none d-md-block header-center">
+								<div class="s_btn text-right" data-name="Button">
+    								<a href="#" class="btn btn-primary rounded-circle btn-lg shadow">Get Quote</a>
+        						</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- <t t-call="theme_nextbiz.bizople_mbl_side_bar"/> -->
+			</nav>
+		</xpath>
+		<xpath expr="//header" position="after">
+			<div class="d-block d-md-none">
+				<t t-call="theme_nextbiz.bizople_mobile_bottom_icon_bar"/>
+			</div>
+		</xpath>
+	</template>
+
+	
+
+	<template id="template_header_four_align_center" inherit_id="theme_nextbiz.theme_nextbiz_header8" active="False">
+        <xpath expr="//ul[@id='top_menu']" position="attributes">
+            <attribute name="class">nav navbar-nav mx-md-auto</attribute>
+        </xpath>
+    </template>
+
+    <template id="template_header_four_align_right" inherit_id="theme_nextbiz.theme_nextbiz_header8" active="False">
+        <xpath expr="//ul[@id='top_menu']" position="attributes">
+            <attribute name="class">nav navbar-nav ml-md-auto</attribute>
+        </xpath>
+    </template>
+</odoo>

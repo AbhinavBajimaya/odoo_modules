@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_company_pricing" name="Pricing Plan">
+      	<div class="oe_structure"/>
+      	
+      	<section class="s_parallax parallax corpo_comapany_pricing s_parallax_is_fixed	o_half_screen_height o_colored_level pt64 pb64" data-scroll-background-ratio="1" data-snippet="s_parallax" data-name="Parallax">
+			<span class="s_parallax_bg oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/company-servicebg.jpg');"/>
+			<div class="oe_structure oe_empty"/>
+
+			<section class="corpo_comapany_pricing">
+				<div class="container">
+					<div class="row justify-content-center text-center">
+						<div class="col-lg-7">
+							<p class="m-0 section-heading one-side-heading-line two-line text-uppercase">Pricing Plans</p>
+							<h2 class="mt-4 font-weight-lighter">
+								Our Pricing Plans
+							</h2>
+						</div>
+					</div>
+					<div class="row mt32">
+						<div class="col-md-4 py-2 py-md-0">
+							<div class="pricing_block rounded shadow">
+								<section class="pricing_back_img o_colored_level oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/company-price1.jpg'); background-size: cover;">
+									<div class="o_we_bg_filter bg-black-50"></div>
+									<div class="px-lg-4 py-5 text-white text-center">
+										<p>STANDARD</p>
+										<h2 class="text-white font-weight-bolder mt-2">$ 99.00</h2>
+										<p class="mb-0 mt-2">Per Year</p>
+									</div>
+								</section>
+								<section class="pricing_content bg-white p-4 text-center">
+									<ul class="list-unstyled text-muted">
+										<li>Business Advices</li>
+										<li>Custom Designs</li>
+										<li>Domain Installation</li>
+										<li>Website Design</li>
+										<li>24/7 Skilled Support</li>
+										</ul>
+										<p class="mt-3"> 
+											<a href="#" class="btn btn-outline-primary rounded-circle mt-2 px-4 py-3 font-weight-bold">
+												Read More
+											</a>
+										</p>
+								</section>
+							</div>
+						</div>
+						<div class="col-md-4 py-2 py-md-0">
+							<div class="pricing_block rounded shadow">
+								<section class="pricing_back_img o_colored_level oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/company-price2.jpg'); background-size: cover;">
+									<div class="o_we_bg_filter bg-black-50"></div>
+									<div class="px-lg-4 py-5 text-white text-center">
+										<p>PREMIUM</p>
+										<h2 class="text-white font-weight-bolder mt-2">$ 175.00</h2>
+										<p class="mb-0 mt-2">Per Year</p>
+									</div>
+								</section>
+								<section class="pricing_content bg-white p-4 text-center">
+									<ul class="list-unstyled text-muted">
+										<li>Business Advices</li>
+										<li>Custom Designs</li>
+										<li>Domain Installation</li>
+										<li>Website Design</li>
+										<li>24/7 Skilled Support</li>
+									</ul>
+									<p class="mt-3"> 
+										<a href="#" class="btn btn-outline-primary rounded-circle mt-2 px-4 py-3 font-weight-bold">
+											Read More
+										</a>
+									</p>
+								</section>
+							</div>
+						</div>
+						<div class="col-md-4 py-2 py-md-0">
+							<div class="pricing_block rounded shadow">
+								<section class="pricing_back_img o_colored_level oe_img_bg" style="background-position: center; background-image: url('/theme_nextbiz/static/src/img/company-price3.jpg'); background-size: cover;">
+									<div class="o_we_bg_filter bg-black-50"></div>
+									<div class="px-lg-4 py-5 text-white text-center">
+										<p>LUX</p>
+										<h2 class="text-white font-weight-bolder mt-2">$ 225.00</h2>
+										<p class="mb-0 mt-2">Per Year</p>
+									</div>
+								</section>
+								<section class="pricing_content bg-white p-4 text-center">
+									<ul class="list-unstyled text-muted">
+										<li>Business Advices</li>
+										<li>Custom Designs</li>
+										<li>Domain Installation</li>
+										<li>Website Design</li>
+										<li>24/7 Skilled Support</li>
+									</ul>
+									<p class="mt-3"> 
+										<a href="#" class="btn btn-outline-primary rounded-circle mt-2 px-4 py-3 font-weight-bold">
+											Read More
+										</a>
+									</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+      		
+      		<div class="oe_structure"/>
+		</section>
+		
+      	<div class="oe_structure oe_empty"/>
+	</template>
+</odoo>

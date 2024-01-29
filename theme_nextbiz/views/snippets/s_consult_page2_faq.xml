@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page2_faq" name="Consult Two Faq">
+        <section class="consult_pages">
+            <section class="consult-two-faq">
+                <div class="container">
+                    <div class="row">
+                        <div class="offset-lg-7 col-lg-5">
+                            <div class="">
+                                <h6 class="title font-weight-bold mb-3">Thinking</h6>
+                                <h2 class="font-weight-bold">Knowledge is the best Thing</h2>
+                                <section class="s_faq_collapse pt32 pb32 o_colored_level" data-snippet="s_faq_collapse" data-name="Accordion" style="background-image: none;">
+                                    <div class="container">
+                                        <div id="Consult2Faq2" class="accordion" role="tablist">
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="true" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155386">No rocket science included</a>
+                                                <div class="collapse" data-parent="#Consult2Faq2" role="tabpanel" id="myCollapseTab1653299155386">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155387">Blazing Site Performance</a>
+                                                <div class="collapse" data-parent="#Consult2Faq2" role="tabpanel" id="myCollapseTab1653299155387">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card bg-transparent mb-3 pb-1" data-name="Item">
+                                                <a href="#" role="tab" data-toggle="collapse" aria-expanded="false" class="collapsed card-header bg-transparent o_default_snippet_text" data-target="#myCollapseTab1653299155388">Bonus Plugins Included</a>
+                                                <div class="collapse" data-parent="#Consult2Faq2" role="tabpanel" id="myCollapseTab1653299155388">
+                                                    <div class="card-body">
+                                                        <p class="card-text o_default_snippet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="left_content oe_img_bg  w-50 d-none d-lg-block" style="background-image:url('/theme_nextbiz/static/src/img/consultpage2_faq2.jpg');">
+                </section>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>

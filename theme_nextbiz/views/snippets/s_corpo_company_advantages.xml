@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_corpo_company_advantages" name="Advantages">
+      	<div class="oe_structure"/>
+      	
+      	<section class="corpo_comapany_advantages pt80 pb80" style="background-image: url('/theme_nextbiz/static/src/img/company-advbg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 offset-lg-5">
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-12">
+								<div>
+									<p class="m-0 section-heading one-side-heading-line text-uppercase">Advantages</p>
+								</div>
+							</div>
+						</div>
+						<div class="row text-left mt-5">
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="lnr lnr-chart-bars text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="font-weight-light mt8">
+											Customizable Themes
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="lnr lnr-clock text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="font-weight-light mt8">
+											SEO Optimised
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="lnr lnr-rocket text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="font-weight-light mt8">
+											Fully Responsive
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="adv_block py-3 d-block">
+									<div class="adv_icon">
+										<span class="lnr lnr-cloud-sync text-primary fa-3x"></span>
+									</div>
+									<div class="adv_content">
+										<h4 class="font-weight-light mt8">
+											Website Design
+										</h4>
+										<p class="m-0 mt16 text-muted">
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+      	<div class="oe_structure"/>
+	</template>
+</odoo>

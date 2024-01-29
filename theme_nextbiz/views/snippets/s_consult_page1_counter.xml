@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<template id="s_consult_page1_counter" name="Consult One Counter">
+        <section class="consult_pages">
+            <section class="consult-one-counters oe_img_bg o_bg_img_center o_colored_level" style="background-image: url('/theme_nextbiz/static/src/img/consult_bg_wave.png');">
+                <div class="container">
+                    <section class="counter_box pt80 pb80 bg-white">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <h2 class="text-center font-weight-bold text-primary">1449</h2>
+                                <p class="text-center">Happy Clients</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h2 class="text-center font-weight-bold text-primary">456</h2>
+                                <p class="text-center">Projects Completed</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h2 class="text-center font-weight-bold text-primary">7</h2>
+                                <p class="text-center">Years In This Field</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <h2 class="text-center font-weight-bold text-primary">95</h2>
+                                <p class="text-center">Countries</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <div class="oe_structure"/>
+        </section>
+    </template>
+</odoo>
